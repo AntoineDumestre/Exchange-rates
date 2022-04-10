@@ -6,7 +6,7 @@ df = pd.read_csv("exchange_rates.csv")
 
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
 
-fig = px.line(df, x="date", y="symbol", color="currency", hover_name="value",
+fig = px.line(df, x="date", y="value", color="currency", hover_name="symbol",
         line_shape="spline", render_mode="svg")
 st.plotly_chart(fig, use_container_width=True)
 
