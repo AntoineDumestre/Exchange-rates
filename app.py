@@ -4,6 +4,10 @@ import plotly_express as px
 
 df = pd.read_csv("exchange_rates.csv")
 
+# Filtres
+df = df[df['symbol'].isin(['USD','CHF','GBP','CAD'])]
+
+# Affichage du graphe
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
 st.markdown('[Data credit : La Banque de France](https://www.banque-france.fr/statistiques/taux-et-cours/les-taux-de-change-salle-des-marches/parites-quotidiennes)')
 
