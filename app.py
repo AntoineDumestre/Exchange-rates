@@ -9,4 +9,4 @@ st.markdown('[Data credit : La Banque de France](https://www.banque-france.fr/st
 
 fig = px.line(df, x="symbol", y="value", color="currency", hover_name="date",
         line_shape="spline", render_mode="svg")
-fig.show()
+st.plotly_chart(fig, use_container_width=True)
