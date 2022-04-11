@@ -6,7 +6,6 @@ df = pd.read_csv("exchange_rates.csv")
 
 # Filtres
 df = df[df['symbol'].isin(['USD','CHF','GBP','CAD'])]
-df.sort_values(by=['date'], ascending=False)
 
 # Affichage du graphe
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
