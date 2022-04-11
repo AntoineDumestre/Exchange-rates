@@ -1,4 +1,35 @@
 currency,symbol,value,date
+Dollar des Etats-Unis,USD,1.09,2022-04-11
+Yen japonais,JPY,137.01,2022-04-11
+Couronne danoise,DKK,7.4375,2022-04-11
+Livre sterling,GBP,0.8369,2022-04-11
+Couronne suédoise,SEK,10.3128,2022-04-11
+Franc suisse,CHF,1.018,2022-04-11
+Couronne norvégienne,NOK,9.5478,2022-04-11
+Lev bulgare,BGN,1.9558,2022-04-11
+Couronne tchèque,CZK,24.429,2022-04-11
+Forint hongrois,HUF,378.27,2022-04-11
+Zloty polonais,PLN,4.6456,2022-04-11
+Nouveau leu roumain,RON,4.9397,2022-04-11
+Nouvelle livre turque,TRY,16.0485,2022-04-11
+Dollar australien,AUD,1.4654,2022-04-11
+Dollar canadien,CAD,1.3738,2022-04-11
+Dollar de Hong Kong,HKD,8.544,2022-04-11
+Dollar néo-zélandais,NZD,1.5938,2022-04-11
+Dollar de Singapour,SGD,1.4874,2022-04-11
+South Korean won,KRW,,2022-04-11
+Rand sud-africain,ZAR,15.9127,2022-04-11
+Yuan renminbi chinois,CNY,6.9405,2022-04-11
+Peso philippin,PHP,56.753,2022-04-11
+Ringgit malaisien,MYR,4.6112,2022-04-11
+Baht thaïlandais,THB,36.613,2022-04-11
+Rouble russe,RUB,,2022-04-11
+Roupie indonésienne,IDR,,2022-04-11
+Kuna croate,HRK,7.5519,2022-04-11
+Real brésilien,BRL,5.155,2022-04-11
+Peso mexicain,MXN,21.8653,2022-04-11
+Roupie indienne,INR,82.7085,2022-04-11
+Nouveau sheqel israëlien,ILS,3.501,2022-04-11
 Dollar des Etats-Unis,USD,1.0861,2022-04-08
 Yen japonais,JPY,134.87,2022-04-08
 Couronne danoise,DKK,7.4372,2022-04-08
@@ -619,7 +650,6 @@ Franc suisse,CHF,1.0056,2022-03-04
 Franc suisse,CHF,1.0069,2022-03-07
 Franc suisse,CHF,1.0111,2022-03-08
 Franc suisse,CHF,1.0141,2022-04-05
-Franc suisse,CHF,1.0155,2022-04-08
 Franc suisse,CHF,1.0185,2022-04-07
 Franc suisse,CHF,1.0187,2022-04-06
 Franc suisse,CHF,1.0192,2022-03-03
@@ -1123,7 +1153,6 @@ Dollar des Etats-Unis,USD,1.086,2020-04-20
 Dollar des Etats-Unis,USD,1.086,2020-04-17
 Franc suisse,CHF,1.0861,2021-09-09
 Franc suisse,CHF,1.0861,2020-06-08
-Dollar des Etats-Unis,USD,1.0861,2022-04-08
 Franc suisse,CHF,1.0862,2020-12-29
 Franc suisse,CHF,1.0863,2021-09-03
 Franc suisse,CHF,1.0865,2020-09-01
@@ -1787,7 +1816,6 @@ Dollar des Etats-Unis,USD,1.2296,2021-01-04
 Dollar des Etats-Unis,USD,1.2338,2021-01-06
 Dollar canadien,CAD,1.3647,2022-04-06
 Dollar canadien,CAD,1.3647,2022-04-05
-Dollar canadien,CAD,1.3675,2022-04-08
 Dollar canadien,CAD,1.3702,2022-03-28
 Dollar canadien,CAD,1.3704,2022-04-07
 Dollar canadien,CAD,1.3749,2022-04-04
@@ -1944,7 +1972,6 @@ Dollar canadien,CAD,1.4539,2020-01-27
 Dollar canadien,CAD,1.4545,2021-10-07
 Dollar canadien,CAD,1.4546,2022-02-07
 Dollar canadien,CAD,1.4549,2020-01-02
-Dollar australien,AUD,1.4552,2022-04-08
 Dollar canadien,CAD,1.4559,2020-01-16
 Dollar canadien,CAD,1.4565,2020-01-15
 Dollar canadien,CAD,1.4569,2021-12-20
@@ -2039,7 +2066,6 @@ Dollar canadien,CAD,1.4791,2021-07-30
 Dollar canadien,CAD,1.4793,2021-09-29
 Dollar canadien,CAD,1.4793,2021-08-18
 Dollar australien,AUD,1.4795,2022-03-29
-Dollar de Singapour,SGD,1.4801,2022-04-08
 Dollar australien,AUD,1.4802,2022-03-22
 Dollar canadien,CAD,1.4804,2021-07-26
 Dollar canadien,CAD,1.4807,2021-05-03
@@ -4175,7 +4201,6 @@ Real brésilien,BRL,5.0996,2022-04-06
 Real brésilien,BRL,5.1162,2022-04-04
 Real brésilien,BRL,5.146,2022-04-07
 Real brésilien,BRL,5.148,2020-03-05
-Real brésilien,BRL,5.1583,2022-04-08
 Real brésilien,BRL,5.2042,2020-03-13
 Real brésilien,BRL,5.2133,2022-03-28
 Real brésilien,BRL,5.2188,2022-04-01
@@ -4767,7 +4792,6 @@ Dollar de Hong Kong,HKD,8.4975,2020-04-14
 Dollar de Hong Kong,HKD,8.5039,2020-02-10
 Dollar de Hong Kong,HKD,8.507799999999998,2020-05-26
 Dollar de Hong Kong,HKD,8.5095,2020-03-27
-Dollar de Hong Kong,HKD,8.5134,2022-04-08
 Dollar de Hong Kong,HKD,8.5136,2020-03-26
 Dollar de Hong Kong,HKD,8.515399999999998,2022-03-07
 Dollar de Hong Kong,HKD,8.5168,2020-02-07
@@ -6088,7 +6112,6 @@ Baht thaïlandais,THB,36.453,2021-02-23
 Baht thaïlandais,THB,36.467,2020-12-15
 Baht thaïlandais,THB,36.486,2021-01-22
 Baht thaïlandais,THB,36.487,2021-02-24
-Baht thaïlandais,THB,36.488,2022-04-08
 Baht thaïlandais,THB,36.496,2020-12-11
 Baht thaïlandais,THB,36.5,2020-12-02
 Baht thaïlandais,THB,36.505,2022-03-01
@@ -7041,7 +7064,6 @@ Yen japonais,JPY,133.81,2021-06-03
 Yen japonais,JPY,134.05,2021-06-01
 Yen japonais,JPY,134.07,2022-03-25
 Yen japonais,JPY,134.76,2022-04-05
-Yen japonais,JPY,134.87,2022-04-08
 Yen japonais,JPY,135.08,2022-04-04
 Yen japonais,JPY,135.17,2022-03-31
 Yen japonais,JPY,135.3,2022-04-06
@@ -7050,12 +7072,9 @@ Yen japonais,JPY,135.35,2022-04-01
 Yen japonais,JPY,135.47,2022-03-30
 Yen japonais,JPY,135.93,2022-03-28
 Yen japonais,JPY,136.66,2022-03-29
-Dollar des Etats-Unis,USD,1.1005,2022-04-04
-Yen japonais,JPY,135.08,2022-04-04
 Couronne danoise,DKK,7.4385,2022-04-04
 Livre sterling,GBP,0.8389,2022-04-04
 Couronne suédoise,SEK,10.3849,2022-04-04
-Franc suisse,CHF,1.0203,2022-04-04
 Couronne norvégienne,NOK,9.5489,2022-04-04
 Lev bulgare,BGN,1.9558,2022-04-04
 Couronne tchèque,CZK,24.32,2022-04-04
@@ -7063,30 +7082,21 @@ Forint hongrois,HUF,369.15,2022-04-04
 Zloty polonais,PLN,4.6375,2022-04-04
 Nouveau leu roumain,RON,4.9432,2022-04-04
 Nouvelle livre turque,TRY,16.183,2022-04-04
-Dollar australien,AUD,1.4651,2022-04-04
-Dollar canadien,CAD,1.3749,2022-04-04
-Dollar de Hong Kong,HKD,8.6226,2022-04-04
 Dollar néo-zélandais,NZD,1.586,2022-04-04
-Dollar de Singapour,SGD,1.4938,2022-04-04
 South Korean won,KRW,,2022-04-04
 Rand sud-africain,ZAR,16.0957,2022-04-04
 Yuan renminbi chinois,CNY,7.0026,2022-04-04
 Peso philippin,PHP,56.521,2022-04-04
 Ringgit malaisien,MYR,4.643,2022-04-04
-Baht thaïlandais,THB,36.894,2022-04-04
 Rouble russe,RUB,,2022-04-04
 Roupie indonésienne,IDR,,2022-04-04
 Kuna croate,HRK,7.5455,2022-04-04
-Real brésilien,BRL,5.1162,2022-04-04
 Peso mexicain,MXN,21.82,2022-04-04
 Roupie indienne,INR,83.118,2022-04-04
 Nouveau sheqel israëlien,ILS,3.5312,2022-04-04
-Dollar des Etats-Unis,USD,1.0969,2022-04-05
-Yen japonais,JPY,134.76,2022-04-05
 Couronne danoise,DKK,7.4378,2022-04-05
 Livre sterling,GBP,0.8349,2022-04-05
 Couronne suédoise,SEK,10.2593,2022-04-05
-Franc suisse,CHF,1.0141,2022-04-05
 Couronne norvégienne,NOK,9.5398,2022-04-05
 Lev bulgare,BGN,1.9558,2022-04-05
 Couronne tchèque,CZK,24.338,2022-04-05
@@ -7094,30 +7104,22 @@ Forint hongrois,HUF,370.93,2022-04-05
 Zloty polonais,PLN,4.6265,2022-04-05
 Nouveau leu roumain,RON,4.9438,2022-04-05
 Nouvelle livre turque,TRY,16.15,2022-04-05
-Dollar australien,AUD,1.4374,2022-04-05
-Dollar canadien,CAD,1.3647,2022-04-05
 Dollar de Hong Kong,HKD,8.5917,2022-04-05
 Dollar néo-zélandais,NZD,1.5657,2022-04-05
-Dollar de Singapour,SGD,1.4867,2022-04-05
 South Korean won,KRW,,2022-04-05
 Rand sud-africain,ZAR,15.9529,2022-04-05
 Yuan renminbi chinois,CNY,6.9783,2022-04-05
 Peso philippin,PHP,56.194,2022-04-05
 Ringgit malaisien,MYR,4.6185,2022-04-05
-Baht thaïlandais,THB,36.697,2022-04-05
 Rouble russe,RUB,,2022-04-05
 Roupie indonésienne,IDR,,2022-04-05
 Kuna croate,HRK,7.5399,2022-04-05
-Real brésilien,BRL,5.0384,2022-04-05
 Peso mexicain,MXN,21.7474,2022-04-05
 Roupie indienne,INR,82.635,2022-04-05
 Nouveau sheqel israëlien,ILS,3.5152,2022-04-05
-Dollar des Etats-Unis,USD,1.0923,2022-04-06
-Yen japonais,JPY,135.3,2022-04-06
 Couronne danoise,DKK,7.4378,2022-04-06
 Livre sterling,GBP,0.8347,2022-04-06
 Couronne suédoise,SEK,10.2855,2022-04-06
-Franc suisse,CHF,1.0187,2022-04-06
 Couronne norvégienne,NOK,9.5523,2022-04-06
 Lev bulgare,BGN,1.9558,2022-04-06
 Couronne tchèque,CZK,24.441,2022-04-06
@@ -7125,30 +7127,20 @@ Forint hongrois,HUF,377.77,2022-04-06
 Zloty polonais,PLN,4.6328,2022-04-06
 Nouveau leu roumain,RON,4.9433,2022-04-06
 Nouvelle livre turque,TRY,16.0998,2022-04-06
-Dollar australien,AUD,1.4431,2022-04-06
-Dollar canadien,CAD,1.3647,2022-04-06
-Dollar de Hong Kong,HKD,8.5617,2022-04-06
 Dollar néo-zélandais,NZD,1.5718,2022-04-06
-Dollar de Singapour,SGD,1.4844,2022-04-06
 South Korean won,KRW,,2022-04-06
 Rand sud-africain,ZAR,15.9934,2022-04-06
 Yuan renminbi chinois,CNY,6.9498,2022-04-06
 Peso philippin,PHP,56.167,2022-04-06
 Ringgit malaisien,MYR,4.604,2022-04-06
-Baht thaïlandais,THB,36.701,2022-04-06
 Rouble russe,RUB,,2022-04-06
 Roupie indonésienne,IDR,,2022-04-06
 Kuna croate,HRK,7.547,2022-04-06
-Real brésilien,BRL,5.0996,2022-04-06
 Peso mexicain,MXN,21.8759,2022-04-06
 Roupie indienne,INR,82.8343,2022-04-06
 Nouveau sheqel israëlien,ILS,3.5199,2022-04-06
-Dollar des Etats-Unis,USD,1.0916,2022-04-07
-Yen japonais,JPY,135.32,2022-04-07
 Couronne danoise,DKK,7.4378,2022-04-07
-Livre sterling,GBP,0.8345,2022-04-07
 Couronne suédoise,SEK,10.313,2022-04-07
-Franc suisse,CHF,1.0185,2022-04-07
 Couronne norvégienne,NOK,9.5595,2022-04-07
 Lev bulgare,BGN,1.9558,2022-04-07
 Couronne tchèque,CZK,24.512,2022-04-07
@@ -7156,21 +7148,15 @@ Forint hongrois,HUF,379.26,2022-04-07
 Zloty polonais,PLN,4.637,2022-04-07
 Nouveau leu roumain,RON,4.9419,2022-04-07
 Nouvelle livre turque,TRY,16.0929,2022-04-07
-Dollar australien,AUD,1.4578,2022-04-07
-Dollar canadien,CAD,1.3704,2022-04-07
-Dollar de Hong Kong,HKD,8.5554,2022-04-07
 Dollar néo-zélandais,NZD,1.5816,2022-04-07
-Dollar de Singapour,SGD,1.4848,2022-04-07
 South Korean won,KRW,,2022-04-07
 Rand sud-africain,ZAR,16.052,2022-04-07
 Yuan renminbi chinois,CNY,6.9448,2022-04-07
 Peso philippin,PHP,56.114,2022-04-07
 Ringgit malaisien,MYR,4.6046,2022-04-07
-Baht thaïlandais,THB,36.541,2022-04-07
 Rouble russe,RUB,,2022-04-07
 Roupie indonésienne,IDR,,2022-04-07
 Kuna croate,HRK,7.5562,2022-04-07
-Real brésilien,BRL,5.146,2022-04-07
 Peso mexicain,MXN,21.9806,2022-04-07
 Roupie indienne,INR,82.951,2022-04-07
 Nouveau sheqel israëlien,ILS,3.5259,2022-04-07
