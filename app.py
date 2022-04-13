@@ -8,7 +8,7 @@ all_symbols = df['symbol'].unique().tolist()
 all_symbols.sort()
 update_date = df['date'].max()
 time_period= df['date'].unique().tolist()
-time_period.sort(reverse=True)
+time_period.sort(reverse=False)
 
 # Affichage du graphe
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
