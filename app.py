@@ -10,7 +10,7 @@ update_date = df['date'].max()
 
 # Affichage du graphe
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
-st.markdown(str('Date de mise à jour :' + update_date)
+st.markdown('Date de mise à jour :' + update_date)
 
 selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD'])
 
