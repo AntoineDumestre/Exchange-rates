@@ -15,7 +15,7 @@ st.markdown('Date de mise à jour : ' + update_date)
 selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD'])
 
 df = df[df['symbol'].isin(selected_symbols)]
-st.slider('Choix de la période affichée', min_value=df['Date'].min(), max_value=df['Date'].max(), value=df['Date'].unique().tolist(), 
+st.slider('Choix de la période affichée', min_value=df['Date'].min(), max_value=df['Date'].max(), value=df['Date'].unique().tolist())
           
 fig = px.line(df, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
