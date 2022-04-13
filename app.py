@@ -4,7 +4,7 @@ import plotly_express as px
 
 df = pd.read_csv("exchange_rates.csv")
 
-all_symbols = df['symbol'].unique().tolist()
+all_symbols = df['symbol'].unique().tolist().sort()
 
 
 # Affichage du graphe
