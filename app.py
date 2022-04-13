@@ -16,6 +16,7 @@ st.markdown('Date de mise à jour : ' + update_date)
 
 selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD'])
 df = df[df['symbol'].isin(selected_symbols)]
+st.markdown('min : '+min(selected_period)+' - max : '+max(selected_period))
 
 selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[df['date'].min(),df['date'].max()])
 df = df[df['date'].isin(pd.date_range(min(selected_period),max(selected_period)))]
