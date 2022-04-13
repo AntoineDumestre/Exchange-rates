@@ -19,7 +19,6 @@ df = df[df['symbol'].isin(selected_symbols)]
 
 selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[df['date'].min(),df['date'].max()])
 df = df[(df['date']>=min(selected_period))&(df['date']<=max(selected_period))]
-st.markdown('min : '+min(selected_period)+' - max : '+max(selected_period))
 
 fig = px.line(df, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
