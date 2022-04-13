@@ -16,6 +16,6 @@ selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=[
 
 df = df[df['symbol'].isin(selected_symbols)]
 
-fig = px.line(df, x="date", y="value", color="symbol", hover_name="currency",
+fig = px.line(df, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
 st.plotly_chart(fig, use_container_width=True)
