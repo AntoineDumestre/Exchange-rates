@@ -7,7 +7,7 @@ df = pd.read_csv("exchange_rates.csv")
 all_symbols = df['symbol'].unique().tolist()
 all_symbols.sort()
 update_date = df['date'].max()
-time_period= df['Date'].unique().tolist()
+time_period= df['date'].unique().tolist()
 time_period.sort(ascending=False)
 
 # Affichage du graphe
