@@ -6,10 +6,11 @@ df = pd.read_csv("exchange_rates.csv")
 
 all_symbols = df['symbol'].unique().tolist()
 all_symbols.sort()
-
+update_date = df['date'].max()
 
 # Affichage du graphe
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
+st.markdown(str('Date de mise à jour :' + update_date)
 
 selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD'])
 
