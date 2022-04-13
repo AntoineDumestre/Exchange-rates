@@ -2,15 +2,19 @@ import pandas as pd
 import streamlit as st
 import plotly_express as px
 
+# Import et Préparation des données 
 df = pd.read_csv("exchange_rates.csv")
 
 all_symbols = df['symbol'].unique().tolist()
 all_symbols.sort()
-update_date = df['date'].max()
+
 time_period= df['date'].unique().tolist()
 time_period.sort(reverse=False)
 
-# Affichage du graphe
+update_date = df['date'].max()
+
+
+# Affichage du graphe et des filtres
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
 st.markdown('Date de mise à jour : ' + update_date)
 
