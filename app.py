@@ -7,6 +7,8 @@ df = pd.read_csv("exchange_rates.csv")
 all_symbols = df['symbol'].unique().tolist()
 all_symbols.sort()
 update_date = df['date'].max()
+time_period= df['Date'].unique().tolist()
+time_period.sort(ascending=False)
 
 # Affichage du graphe
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
@@ -15,7 +17,7 @@ st.markdown('Date de mise à jour : ' + update_date)
 selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD'])
 
 df = df[df['symbol'].isin(selected_symbols)]
-st.select_slider('Choix de la période affichée', options=df['Date'].unique().tolist())
+st.select_slider('Choix de la période affichée', options=time_period)
           
 fig = px.line(df, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
