@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import plotly_express as px
-from dateutil.relativedelta import relativedelta
 
 # Import et Préparation des données 
 df = pd.read_csv("exchange_rates.csv")
@@ -23,7 +22,7 @@ selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=[
 df = df[df['symbol'].isin(selected_symbols)]
 
 
-selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[df['date'].max()-relativedelta(years=1),df['date'].max()])
+selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[df['date'].min(),df['date'].max()])
 df = df[(df['date']>=min(selected_period))&(df['date']<=max(selected_period))]
 
 fig = px.line(df, x="date", y="value", color="currency", hover_name="currency",
