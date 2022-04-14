@@ -29,4 +29,4 @@ fig = px.line(df, x="date", y="value", color="currency", hover_name="currency",
 st.plotly_chart(fig, use_container_width=True)
 
 st.markdown('[Data credit : La Banque de France](https://www.banque-france.fr/statistiques/taux-et-cours/les-taux-de-change-salle-des-marches/parites-quotidiennes)')
-
+st.markdown('[Data credit : Yahoo Finance](https://fr.finance.yahoo.com/quote/BTC-EUR/)')
