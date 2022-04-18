@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly_express as px
-import datetime
+from datetime import datetime
 
 # Import et Préparation des données 
 df = pd.read_csv("exchange_rates.csv")
