@@ -26,7 +26,7 @@ df_filtered = df[df['symbole'].isin(selected_symbols)]
 selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[df_filtered['date'].min(),df_filtered['date'].max()])
 df_filtered = df_filtered[(df_filtered['date']>=min(selected_period))&(df_filtered['date']<=max(selected_period))]
 
-fig = px.line(df_filtered, x="date", y="value", color="monnaie", hover_name="monnaie",
+fig = px.line(df_filtered, x="date", y="valeur", color="monnaie", hover_name="monnaie",
         line_shape="spline", render_mode="svg")
 st.plotly_chart(fig, use_container_width=True)
 
