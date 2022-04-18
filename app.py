@@ -4,6 +4,7 @@ import plotly_express as px
 
 # Import et Préparation des données 
 df = pd.read_csv("exchange_rates.csv")
+df.rename(columns={"currency": "monnaie", "symbol": "symbole", "value":"valeur"})
 
 all_symbols = df['symbol'].unique().tolist()
 all_symbols.sort()
@@ -19,17 +20,17 @@ st.title("Évolution des taux de change par rapport à l'Euro (€)")
 st.markdown('Date de mise à jour : ' + update_date)
 
 selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD'])
-df = df[df['symbol'].isin(selected_symbols)]
+df_filtered = df[df['symbol'].isin(selected_symbols)]
 
 
-selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[df['date'].min(),df['date'].max()])
-df = df[(df['date']>=min(selected_period))&(df['date']<=max(selected_period))]
+selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[df_filtered['date'].min(),df_filtered['date'].max()])
+df_filtered = df_filtered[(df_filtered['date']>=min(selected_period))&(df_filtered['date']<=max(selected_period))]
 
-fig = px.line(df, x="date", y="value", color="currency", hover_name="currency",
+fig = px.line(df_filtered, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
 st.plotly_chart(fig, use_container_width=True)
 
 with st.expander('Sources de données'):
         st.markdown('[La Banque de France](https://www.banque-france.fr/statistiques/taux-et-cours/les-taux-de-change-salle-des-marches/parites-quotidiennes)')
         st.markdown('[Yahoo Finance (BTC)](https://fr.finance.yahoo.com/quote/BTC-EUR/)')
-        st.download_button('Télécharger les données sélectionnées', data=df.to_csv().encode('utf-8'), file_name="exchange_rates.csv", mime='text/csv')
+        st.download_button('Télécharger les données', data=df.to_csv().encode('utf-8'), file_name="exchange_rates.csv", mime='text/csv')
