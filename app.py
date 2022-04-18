@@ -34,4 +34,4 @@ container.text('Sources de données :')
 container.markdown('[La Banque de France](https://www.banque-france.fr/statistiques/taux-et-cours/les-taux-de-change-salle-des-marches/parites-quotidiennes)')
 container.markdown('[Yahoo Finance (BTC)](https://fr.finance.yahoo.com/quote/BTC-EUR/)')
 
-st.download_button('Télécharger les données (csv)', data=csv, file="exchange_rates.csv")
+st.download_button('Télécharger les données (csv)', data="exchange_rates.csv")
