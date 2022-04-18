@@ -4,9 +4,8 @@ import plotly_express as px
 
 # Import et Préparation des données 
 df = pd.read_csv("exchange_rates.csv")
-df.rename(columns={"currency": "monnaie", "symbol": "symbole", "value":"valeur"})
 
-all_symbols = df['symbole'].unique().tolist()
+all_symbols = df['symbol'].unique().tolist()
 all_symbols.sort()
 
 time_period= df['date'].unique().tolist()
@@ -20,13 +19,13 @@ st.title("Évolution des taux de change par rapport à l'Euro (€)")
 st.markdown('Date de mise à jour : ' + update_date)
 
 selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD'])
-df_filtered = df[df['symbole'].isin(selected_symbols)]
+df_filtered = df[df['symbol'].isin(selected_symbols)]
 
 
 selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[df_filtered['date'].min(),df_filtered['date'].max()])
 df_filtered = df_filtered[(df_filtered['date']>=min(selected_period))&(df_filtered['date']<=max(selected_period))]
 
-fig = px.line(df_filtered, x="date", y="valeur", color="monnaie", hover_name="monnaie",
+fig = px.line(df_filtered, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
 st.plotly_chart(fig, use_container_width=True)
 
