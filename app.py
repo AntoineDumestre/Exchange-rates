@@ -28,7 +28,7 @@ with st.sidebar:
         
         st.markdown('#')
         
-        min_display_date = df_filtered['date'].min() - 100
+        min_display_date = df_filtered['date'].max() - timedelta(years = 1)
         selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[min_display_date, df_filtered['date'].max()])
         df_filtered = df_filtered[(df_filtered['date']>=min(selected_period))&(df_filtered['date']<=max(selected_period))]
 
