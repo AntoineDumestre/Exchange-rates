@@ -4,7 +4,7 @@ import plotly_express as px
 
 # Import et Préparation des données 
 df = pd.read_csv("exchange_rates.csv")
-df.rename(columns={"currency": "monnaie", "symbol": "symbole", "value":"valeur"})
+df = df.rename(columns={"currency": "monnaie", "symbol": "symbole", "value":"valeur"})
 
 all_symbols = df['symbol'].unique().tolist()
 all_symbols.sort()
