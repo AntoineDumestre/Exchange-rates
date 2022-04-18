@@ -20,11 +20,12 @@ st.markdown('Date de mise à jour : ' + update_date)
 
 with st.sidebar:
         st.subheader('Filtres')
+        st.markdown('#')
         
         selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD'])
         df_filtered = df[df['symbol'].isin(selected_symbols)]
         
-        st.empty()
+        st.markdown('#')
         
         selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[df_filtered['date'].min(),df_filtered['date'].max()])
         df_filtered = df_filtered[(df_filtered['date']>=min(selected_period))&(df_filtered['date']<=max(selected_period))]
