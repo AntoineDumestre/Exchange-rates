@@ -29,9 +29,7 @@ fig = px.line(df, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
 st.plotly_chart(fig, use_container_width=True)
 
-container = st.container()
-container.text('Sources de données :')
-container.markdown('[La Banque de France](https://www.banque-france.fr/statistiques/taux-et-cours/les-taux-de-change-salle-des-marches/parites-quotidiennes)')
-container.markdown('[Yahoo Finance (BTC)](https://fr.finance.yahoo.com/quote/BTC-EUR/)')
-
-st.download_button('Télécharger les données sélectionnées', data=df.to_csv().encode('utf-8'), file_name="exchange_rates.csv", mime='text/csv')
+with st.expander('Sources de données'):
+        st.markdown('[La Banque de France](https://www.banque-france.fr/statistiques/taux-et-cours/les-taux-de-change-salle-des-marches/parites-quotidiennes)')
+        st.markdown('[Yahoo Finance (BTC)](https://fr.finance.yahoo.com/quote/BTC-EUR/)')
+        st.download_button('Télécharger les données sélectionnées', data=df.to_csv().encode('utf-8'), file_name="exchange_rates.csv", mime='text/csv')
