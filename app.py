@@ -29,8 +29,8 @@ with st.sidebar:
         st.markdown('#')
         
         max_display_date = df_filtered['date'].max()
-        min_display_date =  date(max_display_date.year, max_display_date.month, max_display_date.day).isoformat()
-        selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[min_display_date, df_filtered['date'].max()])
+        min_display_date =  date(2021, 12, 1)
+        selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[min_display_date, max_display_date])
         df_filtered = df_filtered[(df_filtered['date'] >= min(selected_period)) & (df_filtered['date'] <= max(selected_period))]
 
 fig = px.line(df_filtered, x="date", y="value", color="currency", hover_name="currency",
