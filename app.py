@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly_express as px
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Import et Préparation des données 
 df = pd.read_csv("exchange_rates.csv")
@@ -28,9 +28,9 @@ with st.sidebar:
         
         st.markdown('#')
         
-        min_display_date = df_filtered['date'].max() - timedelta(years = 1)
+        min_display_date = df_filtered['date'].max() - timedelta(days = 365)
         selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[min_display_date, df_filtered['date'].max()])
-        df_filtered = df_filtered[(df_filtered['date']>=min(selected_period))&(df_filtered['date']<=max(selected_period))]
+        df_filtered = df_filtered[(df_filtered['date'] >= min(selected_period)) & (df_filtered['date'] <= max(selected_period))]
 
 fig = px.line(df_filtered, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
