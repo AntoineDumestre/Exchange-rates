@@ -72,7 +72,7 @@ figs_1D = []
 figs_1M = []
 figs_1Y = []
 
-for i in len(selected_symbols):
+for i in range(len(selected_symbols)):
     symbol = selected_symbols[i]
     v_last = df_trend[df_trend['symbol'] == symbol]['last_value']
     v_oneday = df_trend[df_trend['symbol'] == symbol]['value_onedayago']
