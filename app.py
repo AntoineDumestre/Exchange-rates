@@ -98,7 +98,7 @@ for i in range(len(selected_symbols)):
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1M</span>"},
         delta = {'reference': v_onemonth, 'relative': True},
-        domain = {'row': i, 'column': 4}))
+        row=i,col=4)
             
     fig.add_trace(go.Indicator(
         mode = "delta",
