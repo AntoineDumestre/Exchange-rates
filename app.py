@@ -84,13 +84,11 @@ for i in range(len(selected_symbols)):
     v_oneday = float(df_trend[df_trend['symbol'] == symbol]['value_onedayago'])
     v_onemonth = float(df_trend[df_trend['symbol'] == symbol]['value_onemonthago'])
     v_oneyear = float(df_trend[df_trend['symbol'] == symbol]['value_oneyearago'])
-    
-    #col1.write(f'{symbol}')
-    
+        
     fig.add_trace(go.Indicator(
         mode = "number",
         value = v_last,
-        title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"}),
+        title = {"text": "<span style='font-size:0.8em;color:gray'>f'{symbol} Current'</span>"}),
         row=i+1,col=1)
 
     fig.add_trace(go.Indicator(
