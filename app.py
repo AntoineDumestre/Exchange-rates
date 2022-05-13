@@ -87,7 +87,7 @@ for i in range(len(selected_symbols)):
         
     fig.add_trace(go.Indicator(
         mode = "number",
-        value = f'{v_last} {symbol}',
+        value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"}),
         row=i+1,col=1)
 
