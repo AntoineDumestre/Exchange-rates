@@ -16,7 +16,7 @@ st.set_page_config(layout="wide")
 
 #-------------- Choix de la page : monnaies ou cryptomonnaies --------------#
 with st.sidebar:
-    page = st.selectbox("Choose your page", ["Monnaies", "Cryptomonnaies"]) 
+    page = st.selectbox("Page à afficher", ["Monnaies", "Cryptomonnaies"]) 
     if page == "Monnaies":
         df3 = df1
         filtre_par_defaut = ['USD','GBP','CHF','CAD']
