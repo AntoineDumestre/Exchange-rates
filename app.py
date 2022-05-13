@@ -66,55 +66,56 @@ c1.plotly_chart(fig, use_container_width=True)
 
 #-------------- Affichage des tendances dans un container --------------#
 
-## préparation des données
-figs_0D = []
-figs_1D = []
-figs_1M = []
-figs_1Y = []
+col1, col2, col3, col4, col5 = st.columns(5)
 
 for i in range(len(selected_symbols)):
+        
     symbol = selected_symbols[i]
     v_last = df_trend[df_trend['symbol'] == symbol]['last_value']
     v_oneday = df_trend[df_trend['symbol'] == symbol]['value_onedayago']
     v_onemonth = df_trend[df_trend['symbol'] == symbol]['value_onemonthago']
     v_oneyear = df_trend[df_trend['symbol'] == symbol]['value_oneyearago']
     
-    figs_0D[i] = go.Figure()
-    figs_1D[i] = go.Figure()
-    figs_1M[i] = go.Figure()
-    figs_1Y[i] = go.Figure()
+    fig = go.Figure()
     
-    figs_0D[i].add_trace(go.Indicator(
+    col1.write(f'{symbol}')
+    
+    fig.add_trace(go.Indicator(
         mode = "number",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>Subtitle</span>"},
         delta = {'reference': 400, 'relative': True},
         domain = {'row': 0, 'column': 0}))
+    col2.plotly_chart(fig, use_container_width=True)
     
-    figs_1D[i].add_trace(go.Indicator(
+    fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>Subtitle</span>"},
         delta = {'reference': v_oneday, 'relative': True},
         domain = {'row': 0, 'column': 0}))
+    col3.plotly_chart(fig, use_container_width=True)
+
         
-    figs_1M[i].add_trace(go.Indicator(
+    fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>Subtitle</span>"},
         delta = {'reference': v_onemonth, 'relative': True},
         domain = {'row': 0, 'column': 0}))
+    col4.plotly_chart(fig, use_container_width=True)
             
-    figs_1Y[i].add_trace(go.Indicator(
+   fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>Subtitle</span>"},
         delta = {'reference': v_oneyear, 'relative': True},
         domain = {'row': 0, 'column': 0}))
+    col5.plotly_chart(fig, use_container_width=True)
 
 ## tracé des tendances
 
-st.plotly_chart(figs_1M[0], use_container_width=True)
+#st.plotly_chart(figs_1M[0], use_container_width=True)
 
     
 
