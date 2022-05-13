@@ -29,7 +29,7 @@ with st.sidebar:
         selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD','BTC'])
         df_filtered = df[df['symbol'].isin(selected_symbols)]
         df1_filtered = df1[df1['symbol'].isin(selected_symbols)]
-        df1_filtered = df2[df2['symbol'].isin(selected_symbols)]
+        df2_filtered = df2[df2['symbol'].isin(selected_symbols)]
         
         
         st.markdown('#')
