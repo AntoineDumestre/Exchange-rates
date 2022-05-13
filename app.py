@@ -43,8 +43,6 @@ fig = px.line(df1_filtered, x="date", y="value", color="currency", hover_name="c
         line_shape="spline", render_mode="svg")
 st.plotly_chart(fig, use_container_width=True)
 
-st.markdown('#')
-
 fig = px.line(df2_filtered, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
 st.plotly_chart(fig, use_container_width=True)
