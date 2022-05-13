@@ -80,14 +80,14 @@ fig = make_subplots(rows=len(selected_symbols), cols=4, specs=specif2)
 for i in range(len(selected_symbols)):
     
     symbol = selected_symbols[i]
-    v_last = float(df_trend[df_trend['symbol'] == symbol]['last_value'])
-    v_oneday = float(df_trend[df_trend['symbol'] == symbol]['value_onedayago'])
-    v_onemonth = float(df_trend[df_trend['symbol'] == symbol]['value_onemonthago'])
-    v_oneyear = float(df_trend[df_trend['symbol'] == symbol]['value_oneyearago'])
+    v_last = float("{:.2f}".format(df_trend[df_trend['symbol'] == symbol]['last_value']))
+    v_oneday = float("{:.2f}".format(df_trend[df_trend['symbol'] == symbol]['value_onedayago']))
+    v_onemonth = float("{:.2f}".format(df_trend[df_trend['symbol'] == symbol]['value_onemonthago']))
+    v_oneyear = float("{:.2f}".format(df_trend[df_trend['symbol'] == symbol]['value_oneyearago']))
         
     fig.add_trace(go.Indicator(
         mode = "number",
-        value = v_last,
+        value = f'{v_last} {symbol}',
         title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"}),
         row=i+1,col=1)
 
