@@ -15,13 +15,14 @@ filtre_par_defaut = []
 st.set_page_config(layout="wide")
 
 #-------------- Choix de la page : monnaies ou cryptomonnaies --------------#
-page = st.selectbox("Choose your page", ["Monnaies", "Cryptomonnaies"]) 
-if page == "Monnaies":
-    df3 = df1
-    filtre_par_defaut = ['USD','GBP','CHF','CAD']
-elif page == "Cryptomonnaies":
-    df3 = df2
-    filtre_par_defaut = ['BTC']
+with st.sidebar:
+    page = st.selectbox("Choose your page", ["Monnaies", "Cryptomonnaies"]) 
+    if page == "Monnaies":
+        df3 = df1
+        filtre_par_defaut = ['USD','GBP','CHF','CAD']
+    elif page == "Cryptomonnaies":
+        df3 = df2
+        filtre_par_defaut = ['BTC']
 
 #-------------- Préparation des données --------------#
 all_symbols = df3['symbol'].unique().tolist()
