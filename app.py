@@ -67,7 +67,12 @@ c1.plotly_chart(fig, use_container_width=True)
 
 #-------------- Affichage des tendances dans un container --------------#
 
-fig = make_subplots(rows=len(selected_symbols), cols=5)
+specif = []
+for i in range(len(selected_symbols)):
+    for j in range(4):
+        specif.append({{"type": "domain"}})
+
+fig = make_subplots(rows=len(selected_symbols), cols=4, specs=[specif])
 #fig = go.Figure()
                     
 for i in range(len(selected_symbols)):
@@ -84,28 +89,28 @@ for i in range(len(selected_symbols)):
         mode = "number",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"}),
-        row=i+1,col=2)
+        row=i+1,col=1)
 
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1D</span>"},
         delta = {'reference': v_oneday, 'relative': True}),
-        row=i+1,col=3)
+        row=i+1,col=2)
         
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1M</span>"},
         delta = {'reference': v_onemonth, 'relative': True}),
-        row=i+1,col=4)
+        row=i+1,col=3)
             
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1Y</span>"},
         delta = {'reference': v_oneyear, 'relative': True}),
-        row=i+1,col=5)
+        row=i+1,col=4)
 
 ## tracé des tendances
 fig.update_layout(height=300, width=800)
