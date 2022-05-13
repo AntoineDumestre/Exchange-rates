@@ -85,7 +85,7 @@ for i in range(len(selected_symbols)):
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"},
         delta = {'reference': 400, 'relative': True},
-        domain = {'row': 0, 'column': 0}))
+        domain = {'x': [0, 0.5], 'y': [0, 0.5]}))
     col2.plotly_chart(fig, use_container_width=True)
     
     fig.add_trace(go.Indicator(
@@ -93,7 +93,7 @@ for i in range(len(selected_symbols)):
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1D</span>"},
         delta = {'reference': v_oneday, 'relative': True},
-        domain = {'row': 0, 'column': 0}))
+        domain = {'x': [0, 0.5], 'y': [0, 0.5]}))
     col3.plotly_chart(fig, use_container_width=True)
 
         
@@ -102,7 +102,7 @@ for i in range(len(selected_symbols)):
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1M</span>"},
         delta = {'reference': v_onemonth, 'relative': True},
-        domain = {'row': 0, 'column': 0}))
+        domain = {'x': [0, 0.5], 'y': [0, 0.5]}))
     col4.plotly_chart(fig, use_container_width=True)
             
     fig.add_trace(go.Indicator(
@@ -110,7 +110,7 @@ for i in range(len(selected_symbols)):
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1Y</span>"},
         delta = {'reference': v_oneyear, 'relative': True},
-        domain = {'row': 0, 'column': 0}))
+        domain = {'x': [0, 0.5], 'y': [0, 0.5]}))
     col5.plotly_chart(fig, use_container_width=True)
 
 ## tracé des tendances
