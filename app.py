@@ -17,6 +17,8 @@ time_period.sort(reverse=False)
 
 update_date = df['date'].max()
 
+# Affichage global de la page
+st.set_page_config(layout="wide")
 
 # Affichage des filtres
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
