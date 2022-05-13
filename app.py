@@ -83,29 +83,29 @@ for i in range(len(selected_symbols)):
     fig.add_trace(go.Indicator(
         mode = "number",
         value = v_last,
-        title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"},
-        domain = {'row': i, 'column': 2}))
+        title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"}),
+        row=i+1,col=2)
 
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1D</span>"},
-        delta = {'reference': v_oneday, 'relative': True},
-        domain = {'row': i, 'column': 3}))
+        delta = {'reference': v_oneday, 'relative': True}),
+        row=i+1,col=3)
         
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1M</span>"},
         delta = {'reference': v_onemonth, 'relative': True}),
-        row=i,col=4)
+        row=i+1,col=4)
             
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1Y</span>"},
-        delta = {'reference': v_oneyear, 'relative': True},
-        domain = {'row': i, 'column': 5}))
+        delta = {'reference': v_oneyear, 'relative': True}),
+        row=i+1,col=5)
 
 ## tracé des tendances
 fig.update_layout(height=300, width=800)
