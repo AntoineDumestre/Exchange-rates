@@ -14,7 +14,7 @@ filtre_par_defaut = []
 #-------------- Affichage global de la page --------------#
 st.set_page_config(layout="wide")
 
-#-------------- Choix de la page : monnaies ou cryptomonnaies --------------#
+## choix de la page : monnaies ou cryptomonnaies
 with st.sidebar:
     page = st.selectbox("Page à afficher", ["Monnaies", "Cryptomonnaies"]) 
     if page == "Monnaies":
@@ -24,7 +24,7 @@ with st.sidebar:
         df3 = df2
         filtre_par_defaut = ['BTC']
 
-#-------------- Préparation des données --------------#
+## Préparation des données
 all_symbols = df3['symbol'].unique().tolist()
 all_symbols.sort()
 
@@ -61,6 +61,18 @@ c1 = st.container()
 fig = px.line(df_filtered, x="date", y="value", color="currency", hover_name="currency", line_shape="spline", render_mode="svg")
 c1.plotly_chart(fig, use_container_width=True)
 
+#-------------- Affichage des tendances dans un container --------------#
+
+## préparation des données
+
+#df_trends = pd.DataFrame(columns = ['symbol','value_last','value_one-day-ago','value_one-month-ago','value_one-year-ago'])
+
+#for symb in selected_symbols:
+ #   df_trends['symbol'].loc('symb') = symb
+ #  df_trends['value_last'].loc('symb') = df3[(df3['date'] = update_date
+    
+
+## tendances
 
 #-------------- Affichage des sources de données --------------#
 
