@@ -70,7 +70,7 @@ c1.plotly_chart(fig, use_container_width=True)
 specif = []
 for i in range(len(selected_symbols)):
     for j in range(4):
-        specif.append({{"type": "domain"}})
+        specif.append({"type": "domain"})
 
 fig = make_subplots(rows=len(selected_symbols), cols=4, specs=[specif])
 #fig = go.Figure()
