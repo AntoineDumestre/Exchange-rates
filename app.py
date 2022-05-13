@@ -84,7 +84,6 @@ for i in range(len(selected_symbols)):
         mode = "number",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"},
-        delta = {'reference': 400, 'relative': True},
         domain = {'x': [0, 0.5], 'y': [0, 0.5]}))
     col2.plotly_chart(fig, use_container_width=True)
     
