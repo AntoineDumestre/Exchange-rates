@@ -70,7 +70,7 @@ c1.plotly_chart(fig, use_container_width=True)
 fig = make_subplots(rows=len(selected_symbols, cols=5)
 
 for i in range(len(selected_symbols)):
-        
+    
     symbol = selected_symbols[i]
     v_last = float(df_trend[df_trend['symbol'] == symbol]['last_value'])
     v_oneday = float(df_trend[df_trend['symbol'] == symbol]['value_onedayago'])
