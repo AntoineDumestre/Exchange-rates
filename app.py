@@ -88,7 +88,6 @@ for i in range(len(selected_symbols)):
     fig.add_trace(go.Indicator(
         mode = "number",
         value = round(v_last,2),
-        #title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"}),
         title = {"text": f"<span style='font-size:0.8em;color:gray'>{symbol}</span>"}),
         row=i+1,col=1)
 
@@ -96,21 +95,21 @@ for i in range(len(selected_symbols)):
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1D</span>"},
-        delta = {'reference': v_oneday, 'relative': True,'valueformat': '.2%'}),
+        delta = {'reference': v_oneday, 'relative': True, 'valueformat': '.2%'}),
         row=i+1,col=2)
         
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1M</span>"},
-        delta = {'reference': v_onemonth, 'relative': True}),
+        delta = {'reference': v_onemonth, 'relative': True, 'valueformat': '.2%'}),
         row=i+1,col=3)
             
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1Y</span>"},
-        delta = {'reference': v_oneyear, 'relative': True}),
+        delta = {'reference': v_oneyear, 'relative': True, 'valueformat': '.2%'}),
         row=i+1,col=4)
 
 ## tracé des tendances
