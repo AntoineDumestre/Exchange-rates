@@ -71,10 +71,10 @@ col1, col2, col3, col4, col5 = st.columns(5)
 for i in range(len(selected_symbols)):
         
     symbol = selected_symbols[i]
-    v_last = df_trend[df_trend['symbol'] == symbol]['last_value']
-    v_oneday = df_trend[df_trend['symbol'] == symbol]['value_onedayago']
-    v_onemonth = df_trend[df_trend['symbol'] == symbol]['value_onemonthago']
-    v_oneyear = df_trend[df_trend['symbol'] == symbol]['value_oneyearago']
+    v_last = float(df_trend[df_trend['symbol'] == symbol]['last_value'])
+    v_oneday = float(df_trend[df_trend['symbol'] == symbol]['value_onedayago'])
+    v_onemonth = float(df_trend[df_trend['symbol'] == symbol]['value_onemonthago'])
+    v_oneyear = float(df_trend[df_trend['symbol'] == symbol]['value_oneyearago'])
     
     fig = go.Figure()
     
