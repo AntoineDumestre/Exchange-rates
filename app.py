@@ -21,7 +21,7 @@ if page == "Monnaies":
     filtre_par_defaut = ['USD','GBP','CHF','CAD']
 elif page == "Cryptomonnaies":
     df3 = df2
-        filtre_par_defaut = ['BTC']
+    filtre_par_defaut = ['BTC']
 
 #-------------- Préparation des données --------------#
 all_symbols = df3['symbol'].unique().tolist()
