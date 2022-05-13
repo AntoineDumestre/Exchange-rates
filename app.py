@@ -96,7 +96,7 @@ for i in range(len(selected_symbols)):
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1D</span>"},
-        delta = {'reference': v_oneday, 'relative': True,'valueformat': 'f'}),
+        delta = {'reference': v_oneday, 'relative': True,'valueformat': '.2%'}),
         row=i+1,col=2)
         
     fig.add_trace(go.Indicator(
