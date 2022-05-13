@@ -6,6 +6,9 @@ from datetime import date, datetime, timedelta
 # Import et Préparation des données 
 df = pd.read_csv("exchange_rates.csv")
 
+df1 = df[df['symbol'] == 'BTC']
+df2 = df[~(df['symbol'] == 'BTC')]
+
 all_symbols = df['symbol'].unique().tolist()
 all_symbols.sort()
 
@@ -23,8 +26,11 @@ with st.sidebar:
         st.subheader('Filtres')
         st.markdown('#')
         
-        selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD'])
+        selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default=['USD','GBP','CHF','CAD','BTC'])
         df_filtered = df[df['symbol'].isin(selected_symbols)]
+        df1_filtered = df1[df1['symbol'].isin(selected_symbols)]
+        df1_filtered = df2[df2['symbol'].isin(selected_symbols)]
+        
         
         st.markdown('#')
         
@@ -33,7 +39,13 @@ with st.sidebar:
         selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[min_display_date, max_display_date])
         df_filtered = df_filtered[(df_filtered['date'] >= min(selected_period)) & (df_filtered['date'] <= max(selected_period))]
 
-fig = px.line(df_filtered, x="date", y="value", color="currency", hover_name="currency",
+fig = px.line(df1_filtered, x="date", y="value", color="currency", hover_name="currency",
+        line_shape="spline", render_mode="svg")
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown('#')
+
+fig = px.line(df2_filtered, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
 st.plotly_chart(fig, use_container_width=True)
 
