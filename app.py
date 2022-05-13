@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly_express as px
+import plotly.graph_objects as go
 from datetime import date, datetime, timedelta
 
 #-------------- Import des données --------------#
@@ -65,11 +66,17 @@ c1.plotly_chart(fig, use_container_width=True)
 
 ## préparation des données
 
-#df_trends = pd.DataFrame(columns = ['symbol','value_last','value_one-day-ago','value_one-month-ago','value_one-year-ago'])
+fig2 = go.Figure()
 
-#for symb in selected_symbols:
- #   df_trends['symbol'].loc('symb') = symb
- #  df_trends['value_last'].loc('symb') = df3[(df3['date'] = update_date
+fig2.add_trace(go.Indicator(
+    mode = "number+delta",
+    value = 450,
+    title = {"text": "Accounts<br><span style='font-size:0.8em;color:gray'>Subtitle</span><br><span style='font-size:0.8em;color:gray'>Subsubtitle</span>"},
+    delta = {'reference': 400, 'relative': True},
+    domain = {'x': [0.6, 1], 'y': [0, 1]}))
+
+st.plotly_chart(fig2, use_container_width=True)
+
     
 
 ## tendances
