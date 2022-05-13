@@ -73,7 +73,7 @@ fig2.add_trace(go.Indicator(
     value = 450,
     title = {"text": "Accounts<br><span style='font-size:0.8em;color:gray'>Subtitle</span><br><span style='font-size:0.8em;color:gray'>Subsubtitle</span>"},
     delta = {'reference': 400, 'relative': True},
-    domain = {'x': [0.6, 1], 'y': [0, 1]}))
+    #domain = {'x': [0.6, 1], 'y': [0, 1]}))
 
 st.plotly_chart(fig2, use_container_width=True)
 
