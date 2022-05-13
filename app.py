@@ -37,9 +37,9 @@ update_date = df3['date'].max()
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
 st.markdown('Date de mise à jour : ' + update_date)
 
-col1, col2 = st.columns(2)
-
 st.subheader('Filtres')
+
+col1, col2 = st.columns(2)
 
 selected_symbols = col1.multiselect('Monnaies à afficher', all_symbols, default = filtre_par_defaut)
 
@@ -51,6 +51,8 @@ selected_period = col2.select_slider('Choix de la période affichée', options=t
 df_filtered = df_filtered[(df_filtered['date'] >= min(selected_period)) & (df_filtered['date'] <= max(selected_period))]
 
 #-------------- Affichage des graphes dans un container --------------#
+
+st.subheader('Tendances')
 
 c1 = st.container()
 
