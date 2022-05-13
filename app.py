@@ -39,15 +39,17 @@ st.markdown('Date de mise à jour : ' + update_date)
 
 st.subheader('Filtres')
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 selected_symbols = col1.multiselect('Monnaies à afficher', all_symbols, default = filtre_par_defaut)
 
 df_filtered = df3[df3['symbol'].isin(selected_symbols)]
 
+col2.markdown(#)
+
 max_display_date = df_filtered['date'].max()
 min_display_date =  df_filtered['date'].min()
-selected_period = col2.select_slider('Choix de la période affichée', options=time_period, value=[min_display_date, max_display_date])
+selected_period = col3.select_slider('Choix de la période affichée', options=time_period, value=[min_display_date, max_display_date])
 df_filtered = df_filtered[(df_filtered['date'] >= min(selected_period)) & (df_filtered['date'] <= max(selected_period))]
 
 #-------------- Affichage des graphes dans un container --------------#
