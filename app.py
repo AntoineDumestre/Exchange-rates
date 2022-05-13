@@ -61,7 +61,6 @@ c1 = st.container()
 fig = px.line(df_filtered, x="date", y="value", color="currency", hover_name="currency", line_shape="spline", render_mode="svg")
 c1.plotly_chart(fig, use_container_width=True)
 
-st.markdown("""---""")
 
 #-------------- Affichage des sources de données --------------#
 
