@@ -80,14 +80,14 @@ fig = make_subplots(rows=len(selected_symbols), cols=4, specs=specif2)
 for i in range(len(selected_symbols)):
     
     symbol = selected_symbols[i]
-    v_last = round(float(df_trend[df_trend['symbol'] == symbol]['last_value']),2)
-    v_oneday = round(float(df_trend[df_trend['symbol'] == symbol]['value_onedayago']),2)
-    v_onemonth = round(float(df_trend[df_trend['symbol'] == symbol]['value_onemonthago']),2)
-    v_oneyear = round(float(df_trend[df_trend['symbol'] == symbol]['value_oneyearago']),2)
+    v_last = float(df_trend[df_trend['symbol'] == symbol]['last_value'])
+    v_oneday = float(df_trend[df_trend['symbol'] == symbol]['value_onedayago'])
+    v_onemonth = float(df_trend[df_trend['symbol'] == symbol]['value_onemonthago'])
+    v_oneyear = float(df_trend[df_trend['symbol'] == symbol]['value_oneyearago'])
         
     fig.add_trace(go.Indicator(
         mode = "number",
-        value = v_last,
+        value = round(v_last,2),
         #title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"}),
         title = {"text": f"<span style='font-size:0.8em;color:gray'>{symbol}</span>"}),
         row=i+1,col=1)
@@ -96,7 +96,7 @@ for i in range(len(selected_symbols)):
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1D</span>"},
-        delta = {'reference': v_oneday, 'relative': True}),
+        delta = {'reference': v_oneday, 'relative': True,'valueformat': 'f'}),
         row=i+1,col=2)
         
     fig.add_trace(go.Indicator(
