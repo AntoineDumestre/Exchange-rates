@@ -45,7 +45,7 @@ selected_symbols = col1.multiselect('Monnaies à afficher', all_symbols, default
 
 df_filtered = df3[df3['symbol'].isin(selected_symbols)]
 
-col2.markdown('#')
+col2.write('#')
 
 max_display_date = df_filtered['date'].max()
 min_display_date =  df_filtered['date'].min()
