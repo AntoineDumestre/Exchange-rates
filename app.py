@@ -6,8 +6,8 @@ from datetime import date, datetime, timedelta
 # Import et Préparation des données 
 df = pd.read_csv("exchange_rates.csv")
 
-df1 = df[df['symbol'] == 'BTC']
-df2 = df[~(df['symbol'] == 'BTC')]
+df1 = df[~(df['symbol'] == 'BTC')]
+df2 = df[df['symbol'] == 'BTC']
 
 all_symbols = df['symbol'].unique().tolist()
 all_symbols.sort()
