@@ -41,15 +41,15 @@ with st.sidebar:
 
 # Affichage des graphes dans un container
 
-cont = st.container()
-        
-fig = px.line(df1_filtered, x="date", y="value", color="currency", hover_name="currency",
-        line_shape="spline", render_mode="svg")
-cont.plotly_chart(fig, use_container_width=True)
+col1, col2 = st.columns(2)
 
-fig = px.line(df2_filtered, x="date", y="value", color="currency", hover_name="currency",
-        line_shape="spline", render_mode="svg")
-cont.plotly_chart(fig, use_container_width=True)
+with col1:
+        fig = px.line(df1_filtered, x="date", y="value", color="currency", hover_name="currency", line_shape="spline", render_mode="svg")
+        st.plotly_chart(fig, use_container_width=True)
+
+with col2:
+        fig = px.line(df2_filtered, x="date", y="value", color="currency", hover_name="currency", line_shape="spline", render_mode="svg")
+        st.plotly_chart(fig, use_container_width=True)
 
 # Affichage des sources de données
 
