@@ -108,9 +108,8 @@ for i in range(len(selected_symbols)):
         domain = {'row': i, 'column': 5}))
 
 ## tracé des tendances
+fig.update_layout(height=300, width=800)
 st.plotly_chart(fig, use_container_width=True)
-
-    
 
 
 
