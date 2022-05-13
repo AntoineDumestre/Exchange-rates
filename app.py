@@ -74,7 +74,7 @@ figs_1D = []
 fig2 = go.Figure()
 
 fig2.add_trace(go.Indicator(
-    mode = "number",
+    mode = "delta",
     value = 450,
     title = {"text": "<span style='font-size:0.8em;color:gray'>Subtitle</span>"},
     #delta = {'reference': 400, 'relative': True},
