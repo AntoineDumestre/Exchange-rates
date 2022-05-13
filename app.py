@@ -37,6 +37,8 @@ update_date = df3['date'].max()
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
 st.markdown('Date de mise à jour : ' + update_date)
 
+st.markdown("""---""")
+
 st.subheader('Filtres')
 
 selected_symbols = st.multiselect('Monnaies à afficher', all_symbols, default = filtre_par_defaut)
@@ -48,7 +50,6 @@ min_display_date =  df_filtered['date'].min()
 selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[min_display_date, max_display_date])
 df_filtered = df_filtered[(df_filtered['date'] >= min(selected_period)) & (df_filtered['date'] <= max(selected_period))]
 
-st.empty()
 st.markdown("""---""")
 
 #-------------- Affichage des graphes dans un container --------------#
@@ -60,6 +61,7 @@ c1 = st.container()
 fig = px.line(df_filtered, x="date", y="value", color="currency", hover_name="currency", line_shape="spline", render_mode="svg")
 c1.plotly_chart(fig, use_container_width=True)
 
+st.markdown("""---""")
 
 #-------------- Affichage des sources de données --------------#
 
