@@ -68,7 +68,8 @@ c1.plotly_chart(fig, use_container_width=True)
 #-------------- Affichage des tendances dans un container --------------#
 
 fig = make_subplots(rows=len(selected_symbols, cols=5)
-
+fig = go.Figure()
+                    
 for i in range(len(selected_symbols)):
     
     symbol = selected_symbols[i]
@@ -76,8 +77,6 @@ for i in range(len(selected_symbols)):
     v_oneday = float(df_trend[df_trend['symbol'] == symbol]['value_onedayago'])
     v_onemonth = float(df_trend[df_trend['symbol'] == symbol]['value_onemonthago'])
     v_oneyear = float(df_trend[df_trend['symbol'] == symbol]['value_oneyearago'])
-    
-    #fig = go.Figure()
     
     #col1.write(f'{symbol}')
     
