@@ -12,6 +12,8 @@ df2 = df[df['symbol'] == 'BTC']
 
 filtre_par_defaut = []
 
+df_trend = pd.read_csv("trends.csv")
+
 #-------------- Affichage global de la page --------------#
 st.set_page_config(layout="wide")
 
@@ -65,15 +67,18 @@ c1.plotly_chart(fig, use_container_width=True)
 #-------------- Affichage des tendances dans un container --------------#
 
 ## préparation des données
+df_trend
+figs_1D = []
 
-fig2 = go.Figure()
+#for symbol in selected_symbols:
+    fig2 = go.Figure()
 
-fig2.add_trace(go.Indicator(
-    mode = "number+delta",
-    value = 450,
-    title = {"text": "Accounts<br><span style='font-size:0.8em;color:gray'>Subtitle</span><br><span style='font-size:0.8em;color:gray'>Subsubtitle</span>"},
-    delta = {'reference': 400, 'relative': True},
-    domain = {'row': 0, 'column': 0}))
+    fig2.add_trace(go.Indicator(
+        mode = "number",
+        value = 450,
+        title = {"text": "<span style='font-size:0.8em;color:gray'>Subtitle</span>"},
+        #delta = {'reference': 400, 'relative': True},
+        domain = {'row': 0, 'column': 0}))
 
 st.plotly_chart(fig2, use_container_width=True)
 
