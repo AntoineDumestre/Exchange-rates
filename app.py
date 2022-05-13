@@ -71,14 +71,14 @@ df_trend
 figs_1D = []
 
 #for symbol in selected_symbols:
-    fig2 = go.Figure()
+fig2 = go.Figure()
 
-    fig2.add_trace(go.Indicator(
-        mode = "number",
-        value = 450,
-        title = {"text": "<span style='font-size:0.8em;color:gray'>Subtitle</span>"},
-        #delta = {'reference': 400, 'relative': True},
-        domain = {'row': 0, 'column': 0}))
+fig2.add_trace(go.Indicator(
+    mode = "number",
+    value = 450,
+    title = {"text": "<span style='font-size:0.8em;color:gray'>Subtitle</span>"},
+    #delta = {'reference': 400, 'relative': True},
+    domain = {'row': 0, 'column': 0}))
 
 st.plotly_chart(fig2, use_container_width=True)
 
