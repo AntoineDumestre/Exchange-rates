@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly_express as px
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 from datetime import date, datetime, timedelta
 
 #-------------- Import des données --------------#
@@ -66,7 +67,7 @@ c1.plotly_chart(fig, use_container_width=True)
 
 #-------------- Affichage des tendances dans un container --------------#
 
-col1, col2, col3, col4, col5 = st.columns(5)
+fig = make_subplots(rows=len(selected_symbols, cols=5)
 
 for i in range(len(selected_symbols)):
         
@@ -76,45 +77,39 @@ for i in range(len(selected_symbols)):
     v_onemonth = float(df_trend[df_trend['symbol'] == symbol]['value_onemonthago'])
     v_oneyear = float(df_trend[df_trend['symbol'] == symbol]['value_oneyearago'])
     
-    fig = go.Figure()
+    #fig = go.Figure()
     
-    col1.write(f'{symbol}')
+    #col1.write(f'{symbol}')
     
     fig.add_trace(go.Indicator(
         mode = "number",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>Current</span>"},
-        domain = {'x': [0, 0.5], 'y': [0, 0.5]}))
-    col2.plotly_chart(fig, use_container_width=True)
-    
+        domain = {'row': i, 'column': 2}))
+
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1D</span>"},
         delta = {'reference': v_oneday, 'relative': True},
-        domain = {'x': [0, 0.5], 'y': [0, 0.5]}))
-    col3.plotly_chart(fig, use_container_width=True)
-
+        domain = {'row': i, 'column': 3}))
         
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1M</span>"},
         delta = {'reference': v_onemonth, 'relative': True},
-        domain = {'x': [0, 0.5], 'y': [0, 0.5]}))
-    col4.plotly_chart(fig, use_container_width=True)
+        domain = {'row': i, 'column': 4}))
             
     fig.add_trace(go.Indicator(
         mode = "delta",
         value = v_last,
         title = {"text": "<span style='font-size:0.8em;color:gray'>1Y</span>"},
         delta = {'reference': v_oneyear, 'relative': True},
-        domain = {'x': [0, 0.5], 'y': [0, 0.5]}))
-    col5.plotly_chart(fig, use_container_width=True)
+        domain = {'row': i, 'column': 5}))
 
 ## tracé des tendances
-
-#st.plotly_chart(figs_1M[0], use_container_width=True)
+st.plotly_chart(fig, use_container_width=True)
 
     
 
