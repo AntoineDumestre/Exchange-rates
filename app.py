@@ -67,24 +67,58 @@ c1.plotly_chart(fig, use_container_width=True)
 #-------------- Affichage des tendances dans un container --------------#
 
 ## préparation des données
-df_trend
+figs_0D = []
 figs_1D = []
+figs_1M = []
+figs_1Y = []
 
-#for symbol in selected_symbols:
-fig2 = go.Figure()
+for i in len(selected_symbols):
+    symbol = selected_symbols[i]
+    v_last = df_trend[df_trend['symbol'] == symbol]['last_value']
+    v_oneday = df_trend[df_trend['symbol'] == symbol]['value_onedayago']
+    v_onemonth = df_trend[df_trend['symbol'] == symbol]['value_onemonthago']
+    v_oneyear = df_trend[df_trend['symbol'] == symbol]['value_oneyearago']
+    
+    figs_0D[i] = go.Figure()
+    figs_1D[i] = go.Figure()
+    figs_1M[i] = go.Figure()
+    figs_1Y[i] = go.Figure()
+    
+    figs_0D[i].add_trace(go.Indicator(
+        mode = "number",
+        value = v_last
+        title = {"text": "<span style='font-size:0.8em;color:gray'>"+symbol+"</span>"},
+        delta = {'reference': 400, 'relative': True},
+        domain = {'row': 0, 'column': 0}))
+    
+    figs_1D[i].add_trace(go.Indicator(
+        mode = "delta",
+        value = v_last
+        title = {"text": "<span style='font-size:0.8em;color:gray'>"+symbol+"</span>"},
+        delta = {'reference': v_oneday, 'relative': True},
+        domain = {'row': 0, 'column': 0}))
+        
+    figs_1M[i].add_trace(go.Indicator(
+        mode = "delta",
+        value = v_last
+        title = {"text": "<span style='font-size:0.8em;color:gray'>"+symbol+"</span>"},
+        delta = {'reference': v_onemonth, 'relative': True},
+        domain = {'row': 0, 'column': 0}))
+            
+    figs_1Y[i].add_trace(go.Indicator(
+        mode = "delta",
+        value = v_last
+        title = {"text": "<span style='font-size:0.8em;color:gray'>"+symbol+"</span>"},
+        delta = {'reference': v_oneyear, 'relative': True},
+        domain = {'row': 0, 'column': 0}))
 
-fig2.add_trace(go.Indicator(
-    mode = "delta",
-    value = 450,
-    title = {"text": "<span style='font-size:0.8em;color:gray'>Subtitle</span>"},
-    delta = {'reference': 400, 'relative': True},
-    domain = {'row': 0, 'column': 0}))
+## tracé des tendances
 
-st.plotly_chart(fig2, use_container_width=True)
+st.plotly_chart(figs_1M[0], use_container_width=True)
 
     
 
-## tendances
+
 
 #-------------- Affichage des sources de données --------------#
 
