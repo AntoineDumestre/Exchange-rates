@@ -18,7 +18,7 @@ time_period.sort(reverse=False)
 update_date = df['date'].max()
 
 
-# Affichage du graphe et des filtres
+# Affichage des filtres
 st.title("Évolution des taux de change par rapport à l'Euro (€)")
 st.markdown('Date de mise à jour : ' + update_date)
 
@@ -39,13 +39,19 @@ with st.sidebar:
         selected_period = st.select_slider('Choix de la période affichée', options=time_period, value=[min_display_date, max_display_date])
         df_filtered = df_filtered[(df_filtered['date'] >= min(selected_period)) & (df_filtered['date'] <= max(selected_period))]
 
+# Affichage des graphes dans un container
+
+cont = st.container()
+        
 fig = px.line(df1_filtered, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
-st.plotly_chart(fig, use_container_width=True)
+cont.plotly_chart(fig, use_container_width=True)
 
 fig = px.line(df2_filtered, x="date", y="value", color="currency", hover_name="currency",
         line_shape="spline", render_mode="svg")
-st.plotly_chart(fig, use_container_width=True)
+cont.plotly_chart(fig, use_container_width=True)
+
+# Affichage des sources de données
 
 with st.expander('Sources de données'):
         st.markdown('[La Banque de France](https://www.banque-france.fr/statistiques/taux-et-cours/les-taux-de-change-salle-des-marches/parites-quotidiennes)')
