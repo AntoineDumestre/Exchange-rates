@@ -87,28 +87,28 @@ for i in len(selected_symbols):
     figs_0D[i].add_trace(go.Indicator(
         mode = "number",
         value = v_last
-        title = {"text": "<span style='font-size:0.8em;color:gray'>"+symbol+"</span>"},
+        title = {"text": "<span style='font-size:0.8em;color:gray'>symbol</span>"},
         delta = {'reference': 400, 'relative': True},
         domain = {'row': 0, 'column': 0}))
     
     figs_1D[i].add_trace(go.Indicator(
         mode = "delta",
         value = v_last
-        title = {"text": "<span style='font-size:0.8em;color:gray'>"+symbol+"</span>"},
+        title = {"text": "<span style='font-size:0.8em;color:gray'>symbol</span>"},
         delta = {'reference': v_oneday, 'relative': True},
         domain = {'row': 0, 'column': 0}))
         
     figs_1M[i].add_trace(go.Indicator(
         mode = "delta",
         value = v_last
-        title = {"text": "<span style='font-size:0.8em;color:gray'>"+symbol+"</span>"},
+        title = {"text": "<span style='font-size:0.8em;color:gray'>symbol</span>"},
         delta = {'reference': v_onemonth, 'relative': True},
         domain = {'row': 0, 'column': 0}))
             
     figs_1Y[i].add_trace(go.Indicator(
         mode = "delta",
         value = v_last
-        title = {"text": "<span style='font-size:0.8em;color:gray'>"+symbol+"</span>"},
+        title = {"text": "<span style='font-size:0.8em;color:gray'>symbol</span>"},
         delta = {'reference': v_oneyear, 'relative': True},
         domain = {'row': 0, 'column': 0}))
 
