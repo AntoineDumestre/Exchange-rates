@@ -49,6 +49,7 @@ selected_period = st.select_slider('Choix de la période affichée', options=tim
 df_filtered = df_filtered[(df_filtered['date'] >= min(selected_period)) & (df_filtered['date'] <= max(selected_period))]
 
 st.empty()
+st.markdown("""---""")
 
 #-------------- Affichage des graphes dans un container --------------#
 
