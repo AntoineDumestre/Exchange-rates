@@ -95,9 +95,11 @@ for i in range(len(selected_symbols)):
         mode = "number+delta",
         value = round(v_oneday,3),
         title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 jour</span>"},
-        delta = {'reference': (v_oneday**2)/v_last, 'relative': True, 'valueformat': '.2%', increasing:{'color':'#FF4136'}, decreasing:{'color':'#3D9970'}}),
+        delta = {'reference': (v_oneday**2)/v_last, 'relative': True, 'valueformat': '.2%'}),
         row=i+1,col=2)
-        
+  
+#increasing:{'color':'#FF4136'}, decreasing:{'color':'#3D9970'}
+
     fig.add_trace(go.Indicator(
         mode = "number+delta",
         value = round(v_onemonth,3),
