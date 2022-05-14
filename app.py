@@ -71,10 +71,10 @@ specif = []
 specif2 = []
 for i in range(len(selected_symbols)):
     specif.append({"type": "domain"})
-for j in range(4):
-    specif2.append(specif)
+    for j in range(5):
+        specif2.append(specif)
 
-fig = make_subplots(rows=len(selected_symbols), cols=4, specs=specif2, vertical_spacing=0.1)
+fig = make_subplots(rows=len(selected_symbols), cols=5, specs=specif2, vertical_spacing=0.1)
 #fig = go.Figure()
                     
 for i in range(len(selected_symbols)):
@@ -91,11 +91,11 @@ for i in range(len(selected_symbols)):
         title = {"text": f"<span style='font-size:0.8em;color:gray'>{symbol}</span>"}),
         row=i+1,col=1)
 
-    #fig.add_trace(go.Indicator(
-     #   mode = "number",
-      #  value = round(v_oneday,3),
-       # title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 jour</span>"}),
-        #row=i+1,col=2)
+    fig.add_trace(go.Indicator(
+        mode = "number",
+        value = round(v_oneday,3),
+        title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 jour</span>"}),
+        row=i+1,col=2)
     
     fig.add_trace(go.Indicator(
         mode = "delta",
@@ -122,7 +122,6 @@ for i in range(len(selected_symbols)):
 #fig.update_layout(height=300, width=800)
 st.plotly_chart(fig, use_container_width=True)
 
-Figure.print_grid
 
 #-------------- Affichage des sources de données --------------#
 
