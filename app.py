@@ -69,12 +69,12 @@ c1.plotly_chart(fig, use_container_width=True)
 
 specif = []
 specif2 = []
-for j in range(5):
+for j in range(4):
     specif.append({"type": "domain"})
 for i in range(len(selected_symbols)):
     specif2.append(specif)
 
-fig = make_subplots(rows=len(selected_symbols), cols=5, specs=specif2, vertical_spacing=0.1)
+fig = make_subplots(rows=len(selected_symbols), cols=4, specs=specif2, vertical_spacing=0.1)
 #fig = go.Figure()
                     
 for i in range(len(selected_symbols)):
@@ -92,30 +92,25 @@ for i in range(len(selected_symbols)):
         row=i+1,col=1)
 
     fig.add_trace(go.Indicator(
-        mode = "number",
+        mode = "number+delta",
         value = round(v_oneday,3),
-        title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 jour</span>"}),
+        title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 jour</span>"},
+        delta = {'reference': (v_oneday**2)/v_last, 'relative': True, 'valueformat': '.2%'}),
         row=i+1,col=2)
-    
-    fig.add_trace(go.Indicator(
-        mode = "delta",
-        value = v_last,
-        delta = {'reference': v_oneday, 'relative': True, 'valueformat': '.2%'}),
-        row=i+1,col=3)
         
     fig.add_trace(go.Indicator(
         mode = "number+delta",
         value = round(v_onemonth,3),
         title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 mois</span>"},
         delta = {'reference': (v_onemonth**2)/v_last, 'relative': True, 'valueformat': '.2%'}),
-        row=i+1,col=4)
+        row=i+1,col=3)
             
     fig.add_trace(go.Indicator(
         mode = "number+delta",
-        value = round(v_last,3),
+        value = round(v_oneyear,3),
         title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 an</span>"},
-        delta = {'reference': v_oneyear, 'relative': True, 'valueformat': '.2%'}),
-        row=i+1,col=5)
+        delta = {'reference': (v_oneyear**2)/v_last, 'relative': True, 'valueformat': '.2%'}),
+        row=i+1,col=4)
        
 
 ## tracé des tendances
