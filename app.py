@@ -71,10 +71,10 @@ specif = []
 specif2=[]
 for i in range(len(selected_symbols)):
     specif.append({"type": "domain"})
-for j in range(4):
+for j in range(5):
     specif2.append(specif)
 
-fig = make_subplots(rows=len(selected_symbols), cols=4, specs=specif2, vertical_spacing=0.1)
+fig = make_subplots(rows=len(selected_symbols), cols=5, specs=specif2, vertical_spacing=0.1)
 #fig = go.Figure()
                     
 for i in range(len(selected_symbols)):
@@ -94,23 +94,29 @@ for i in range(len(selected_symbols)):
     fig.add_trace(go.Indicator(
         mode = "number",
         value = round(v_oneday,3),
-        title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 jour</span>"},
-        delta = {'reference': v_oneday, 'relative': True, 'valueformat': '.2%'}),
+        title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 jour</span>"}),
+        #delta = {'reference': v_oneday, 'relative': True, 'valueformat': '.2%'}),
         row=i+1,col=2)
+    
+        fig.add_trace(go.Indicator(
+        mode = "delta",
+        value = v_last,
+        delta = {'reference': v_oneday, 'relative': True, 'valueformat': '.2%'}),
+        row=i+1,col=3)
         
     fig.add_trace(go.Indicator(
         mode = "number+delta",
         value = round(v_last,3),
         title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 mois</span>"},
         delta = {'reference': v_onemonth, 'relative': True, 'valueformat': '.2%'}),
-        row=i+1,col=3)
+        row=i+1,col=4)
             
     fig.add_trace(go.Indicator(
         mode = "number+delta",
         value = round(v_last,3),
         title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 an</span>"},
         delta = {'reference': v_oneyear, 'relative': True, 'valueformat': '.2%'}),
-        row=i+1,col=4)
+        row=i+1,col=5)
        
 
 ## tracé des tendances
