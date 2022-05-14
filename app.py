@@ -71,7 +71,7 @@ specif = []
 specif2 = []
 for i in range(len(selected_symbols)):
     specif.append({"type": "domain"})
-for j in range(4):
+for j in range(5):
     specif2.append(specif)
 
 fig = make_subplots(rows=len(selected_symbols), cols=5, specs=specif2, vertical_spacing=0.1)
