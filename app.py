@@ -101,14 +101,14 @@ for i in range(len(selected_symbols)):
     fig.add_trace(go.Indicator(
         mode = "number+delta",
         value = round(v_last,3),
-        title = {"text": "<span style='font-size:0.8em;color:gray'>Depuis 1 mois</span>"},
+        title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 mois</span>"},
         delta = {'reference': v_onemonth, 'relative': True, 'valueformat': '.2%'}),
         row=i+1,col=3)
             
     fig.add_trace(go.Indicator(
         mode = "number+delta",
         value = round(v_last,3),
-        title = {"text": "<span style='font-size:0.8em;color:gray'>Depuis 1 an</span>"},
+        title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 an</span>"},
         delta = {'reference': v_oneyear, 'relative': True, 'valueformat': '.2%'}),
         row=i+1,col=4)
 
