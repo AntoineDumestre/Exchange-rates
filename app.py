@@ -107,7 +107,7 @@ for i in range(len(selected_symbols)):
         mode = "number+delta",
         value = round(v_onemonth,3),
         title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 mois</span>"},
-        delta = {'reference': v_last**2 / v_onemonth, 'relative': True, 'valueformat': '.2%'}),
+        delta = {'reference': v_onemonth/(v_last**2) , 'relative': True, 'valueformat': '.2%'}),
         row=i+1,col=4)
             
     fig.add_trace(go.Indicator(
