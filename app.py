@@ -122,7 +122,7 @@ for i in range(len(selected_symbols)):
 #fig.update_layout(height=300, width=800)
 st.plotly_chart(fig, use_container_width=True)
 
-
+Figure.print_grid
 
 #-------------- Affichage des sources de données --------------#
 
