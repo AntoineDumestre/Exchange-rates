@@ -68,10 +68,10 @@ c1.plotly_chart(fig, use_container_width=True)
 #-------------- Affichage des tendances dans un container --------------#
 
 specif = []
-specif2=[]
+specif2 = []
 for i in range(len(selected_symbols)):
     specif.append({"type": "domain"})
-for j in range(5):
+for j in range(4):
     specif2.append(specif)
 
 fig = make_subplots(rows=len(selected_symbols), cols=5, specs=specif2, vertical_spacing=0.1)
