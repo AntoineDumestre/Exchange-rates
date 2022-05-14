@@ -69,7 +69,7 @@ c1.plotly_chart(fig, use_container_width=True)
 
 specif = []
 specif2=[]
-for i in range(len(selected_symbols)+1):
+for i in range(len(selected_symbols)):
     specif.append({"type": "domain"})
 for j in range(4):
     specif2.append(specif)
@@ -84,7 +84,7 @@ for i in range(len(selected_symbols)):
     v_oneday = float(df_trend[df_trend['symbol'] == symbol]['value_onedayago'])
     v_onemonth = float(df_trend[df_trend['symbol'] == symbol]['value_onemonthago'])
     v_oneyear = float(df_trend[df_trend['symbol'] == symbol]['value_oneyearago'])
-        
+    
     fig.add_trace(go.Indicator(
         mode = "number",
         value = round(v_last,3),
@@ -93,29 +93,25 @@ for i in range(len(selected_symbols)):
 
     fig.add_trace(go.Indicator(
         mode = "number",
-        value = round(v_last,3),
+        value = round(v_oneday,3),
         title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 jour</span>"},
-        row=i+1,col=2)
-    
-        fig.add_trace(go.Indicator(
-        mode = "delta",
-        value = v_last,
         delta = {'reference': v_oneday, 'relative': True, 'valueformat': '.2%'}),
-        row=i+1,col=3)
+        row=i+1,col=2)
         
     fig.add_trace(go.Indicator(
         mode = "number+delta",
         value = round(v_last,3),
         title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 mois</span>"},
         delta = {'reference': v_onemonth, 'relative': True, 'valueformat': '.2%'}),
-        row=i+1,col=4)
+        row=i+1,col=3)
             
     fig.add_trace(go.Indicator(
         mode = "number+delta",
         value = round(v_last,3),
         title = {"text": "<span style='font-size:0.8em;color:gray'>- 1 an</span>"},
         delta = {'reference': v_oneyear, 'relative': True, 'valueformat': '.2%'}),
-        row=i+1,col=5)
+        row=i+1,col=4)
+       
 
 ## tracé des tendances
 #fig.update_layout(height=300, width=800)
