@@ -114,7 +114,7 @@ for i in range(len(selected_symbols)):
        
 
 ## tracé des tendances
-fig.update_layout(height=1000)
+#fig.update_layout(height=1000)
 st.plotly_chart(fig, use_container_width=True)
 
 
