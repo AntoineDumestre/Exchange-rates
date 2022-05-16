@@ -1,33 +1,33 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
-Bitcoin,BTC,2022-05-15,28806.33,27661.432,37094.79,38498.738281
-Dollar des Etats-Unis,USD,2022-05-13,1.0385,1.0553,1.0826,1.2081
-Real brésilien,BRL,2022-05-13,5.3204,5.3859,5.0449,6.4027
-Peso philippin,PHP,2022-05-13,54.449,54.992,56.446,0.0
-Ringgit malaisien,MYR,2022-05-13,4.5673,4.6185,4.5799,0.0
-Baht thaïlandais,THB,2022-05-13,36.109,36.492,36.305,37.874
-Rouble russe,RUB,2022-05-13,,,,0.0
-Roupie indonésienne,IDR,2022-05-13,,,,0.0
-Kuna croate,HRK,2022-05-13,7.52,7.5365,7.5538,0.0
-Peso mexicain,MXN,2022-05-13,20.988,21.387,21.417,24.3353
-Rand sud-africain,ZAR,2022-05-13,16.7789,16.9275,15.682,0.0
-Roupie indienne,INR,2022-05-13,80.4315,81.4935,82.478,0.0
-Nouveau sheqel israëlien,ILS,2022-05-13,3.5586,3.6148,3.4782,0.0
-Yuan renminbi chinois,CNY,2022-05-13,7.0513,7.0893,6.8939,0.0
-Yen japonais,JPY,2022-05-13,133.91,137.07,136.26,132.37
-South Korean won,KRW,2022-05-13,,,,0.0
-Forint hongrois,HUF,2022-05-13,385.0,379.13,378.45,0.0
-Livre sterling,GBP,2022-05-13,0.8512,0.8539,0.8328,0.86063
-Couronne suédoise,SEK,2022-05-13,10.4905,10.526,10.3323,0.0
-Franc suisse,CHF,2022-05-13,1.0385,1.0446,1.0116,1.096
-Couronne norvégienne,NOK,2022-05-13,10.2043,10.1793,9.5693,0.0
-Lev bulgare,BGN,2022-05-13,1.9558,1.9558,1.9558,0.0
-Couronne tchèque,CZK,2022-05-13,24.74,25.365,24.45,0.0
-Zloty polonais,PLN,2022-05-13,4.6883,4.6575,4.6453,0.0
-Dollar de Singapour,SGD,2022-05-13,1.45,1.4622,1.4769,1.612
-Nouveau leu roumain,RON,2022-05-13,4.9455,4.947,4.9415,0.0
-Nouvelle livre turque,TRY,2022-05-13,16.0687,16.1851,15.7992,0.0
-Dollar australien,AUD,2022-05-13,1.5067,1.5055,1.4603,1.5673
-Dollar canadien,CAD,2022-05-13,1.3505,1.3685,1.37,1.4665
-Dollar de Hong Kong,HKD,2022-05-13,8.1522,8.2839,8.4867,9.3841
-Dollar néo-zélandais,NZD,2022-05-13,1.6633,1.6645,1.5991,1.6885
-Couronne danoise,DKK,2022-05-13,7.4412,7.4393,7.4377,0.0
+Dollar des Etats-Unis,USD,2022-05-16,1.0422,1.0385,1.0878,1.2123
+Dollar de Singapour,SGD,2022-05-16,1.4531,1.45,1.4732,1.6161
+Yen japonais,JPY,2022-05-16,135.01,133.91,136.32,132.49
+Bitcoin,BTC,2022-05-16,28351.305,28806.33,37094.79,38235.890625
+Nouveau sheqel israëlien,ILS,2022-05-16,3.5474,3.5586,3.4896,0.0
+Roupie indienne,INR,2022-05-16,81.081,80.4315,82.814,0.0
+Peso mexicain,MXN,2022-05-16,20.9324,20.988,21.5941,24.0232
+Real brésilien,BRL,2022-05-16,5.2819,5.3204,5.1226,6.3942
+Kuna croate,HRK,2022-05-16,7.5225,7.52,7.5587,0.0
+Rouble russe,RUB,2022-05-16,,,,0.0
+Baht thaïlandais,THB,2022-05-16,36.274,36.109,36.615,38.012
+Ringgit malaisien,MYR,2022-05-16,4.5836,4.5673,4.603,0.0
+Peso philippin,PHP,2022-05-16,54.705,54.449,56.759,0.0
+Yuan renminbi chinois,CNY,2022-05-16,7.0786,7.0513,6.932,0.0
+Rand sud-africain,ZAR,2022-05-16,16.9195,16.7789,15.9331,0.0
+South Korean won,KRW,2022-05-16,,,,0.0
+Roupie indonésienne,IDR,2022-05-16,,,,0.0
+Dollar néo-zélandais,NZD,2022-05-16,1.6601,1.6633,1.5957,1.6771
+Dollar de Hong Kong,HKD,2022-05-16,8.1812,8.1522,8.5298,9.4151
+Dollar canadien,CAD,2022-05-16,1.3473,1.3505,1.3663,1.47
+Dollar australien,AUD,2022-05-16,1.5057,1.5067,1.4612,1.5634
+Nouvelle livre turque,TRY,2022-05-16,16.3121,16.0687,15.9046,0.0
+Nouveau leu roumain,RON,2022-05-16,4.9469,4.9455,4.9459,0.0
+Zloty polonais,PLN,2022-05-16,4.6675,4.6883,4.6478,0.0
+Forint hongrois,HUF,2022-05-16,385.85,385.0,376.57,0.0
+Couronne danoise,DKK,2022-05-16,7.4418,7.4412,7.4389,0.0
+Couronne tchèque,CZK,2022-05-16,24.71,24.74,24.42,0.0
+Lev bulgare,BGN,2022-05-16,1.9558,1.9558,1.9558,0.0
+Couronne norvégienne,NOK,2022-05-16,10.2188,10.2043,9.5313,0.0
+Franc suisse,CHF,2022-05-16,1.0479,1.0385,1.0189,1.0952
+Couronne suédoise,SEK,2022-05-16,10.4978,10.4905,10.3008,0.0
+Livre sterling,GBP,2022-05-16,0.8505,0.8512,0.8291,0.8608299999999999
