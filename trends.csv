@@ -1,33 +1,33 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
-Bitcoin,BTC,2022-05-21,27917.133,27813.89,37986.207,30627.822266
+Bitcoin,BTC,2022-05-22,28300.537,27917.133,36640.348,30818.25
 Dollar des Etats-Unis,USD,2022-05-20,1.0577,1.0523,1.083,1.2203
-Roupie indonésienne,IDR,2022-05-20,,,,0.0
-Rand sud-africain,ZAR,2022-05-20,16.7131,16.7313,16.3019,0.0
+Kuna croate,HRK,2022-05-20,7.5335,7.535,7.561,0.0
 Yuan renminbi chinois,CNY,2022-05-20,7.0638,7.0972,6.9448,0.0
 Peso philippin,PHP,2022-05-20,55.181,55.077,56.747,0.0
 Ringgit malaisien,MYR,2022-05-20,4.6422,4.6254,4.6415,0.0
 Baht thaïlandais,THB,2022-05-20,36.284,36.399,36.567,38.305
 Rouble russe,RUB,2022-05-20,,,,0.0
-Kuna croate,HRK,2022-05-20,7.5335,7.535,7.561,0.0
-Dollar de Singapour,SGD,2022-05-20,1.4588,1.4598,1.4779,1.6261
-Real brésilien,BRL,2022-05-20,5.1989,5.1974,5.0481,6.4567
 Peso mexicain,MXN,2022-05-20,21.0314,20.9204,21.6392,24.2825
+Real brésilien,BRL,2022-05-20,5.1989,5.1974,5.0481,6.4567
+South Korean won,KRW,2022-05-20,,,,0.0
 Roupie indienne,INR,2022-05-20,82.1617,81.6455,82.6348,0.0
 Nouveau sheqel israëlien,ILS,2022-05-20,3.533,3.526,3.4908,0.0
-South Korean won,KRW,2022-05-20,,,,0.0
 Yen japonais,JPY,2022-05-20,135.34,135.76,138.53,132.95
+Rand sud-africain,ZAR,2022-05-20,16.7131,16.7313,16.3019,0.0
+Roupie indonésienne,IDR,2022-05-20,,,,0.0
+Dollar de Singapour,SGD,2022-05-20,1.4588,1.4598,1.4779,1.6261
 Dollar néo-zélandais,NZD,2022-05-20,1.6518,1.6548,1.595,1.6986
-Couronne tchèque,CZK,2022-05-20,24.67,24.647,24.409,0.0
-Couronne danoise,DKK,2022-05-20,7.4424,7.4419,7.4405,0.0
-Livre sterling,GBP,2022-05-20,0.8482,0.8467,0.8297,0.8639999999999999
-Couronne suédoise,SEK,2022-05-20,10.4915,10.4675,10.23,0.0
-Franc suisse,CHF,2022-05-20,1.028,1.0486,1.0254,1.0991
-Couronne norvégienne,NOK,2022-05-20,10.262,10.2125,9.5443,0.0
-Lev bulgare,BGN,2022-05-20,1.9558,1.9558,1.9558,0.0
 Dollar de Hong Kong,HKD,2022-05-20,8.2999,8.2591,8.494,9.472600000000002
-Forint hongrois,HUF,2022-05-20,382.93,382.88,371.36,0.0
-Nouveau leu roumain,RON,2022-05-20,4.9477,4.9473,4.9436,0.0
-Nouvelle livre turque,TRY,2022-05-20,16.8201,16.7811,15.8892,0.0
-Dollar australien,AUD,2022-05-20,1.498,1.498,1.4581,1.5736
 Dollar canadien,CAD,2022-05-20,1.3526,1.3488,1.3579,1.4778
+Dollar australien,AUD,2022-05-20,1.498,1.498,1.4581,1.5736
+Nouvelle livre turque,TRY,2022-05-20,16.8201,16.7811,15.8892,0.0
+Nouveau leu roumain,RON,2022-05-20,4.9477,4.9473,4.9436,0.0
+Couronne danoise,DKK,2022-05-20,7.4424,7.4419,7.4405,0.0
 Zloty polonais,PLN,2022-05-20,4.6365,4.6443,4.6338,0.0
+Forint hongrois,HUF,2022-05-20,382.93,382.88,371.36,0.0
+Couronne tchèque,CZK,2022-05-20,24.67,24.647,24.409,0.0
+Lev bulgare,BGN,2022-05-20,1.9558,1.9558,1.9558,0.0
+Couronne norvégienne,NOK,2022-05-20,10.262,10.2125,9.5443,0.0
+Franc suisse,CHF,2022-05-20,1.028,1.0486,1.0254,1.0991
+Couronne suédoise,SEK,2022-05-20,10.4915,10.4675,10.23,0.0
+Livre sterling,GBP,2022-05-20,0.8482,0.8467,0.8297,0.8639999999999999
