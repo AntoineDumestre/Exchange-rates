@@ -62,8 +62,9 @@ st.subheader('Tendances')
 
 c1 = st.container()
 
-fig = px.line(df_filtered, x="date", y="value", color="currency", hover_name="currency", line_shape="spline", render_mode="svg", layout={'hovermode': 'closest',
-        'xaxis': {'showspikes': True}})
+fig = px.line(df_filtered, x="date", y="value", color="currency", hover_name="currency", line_shape="spline", render_mode="svg")
+fig.update_xaxes(spikemode = "across") 
+fig.update_yaxes(spikemode = "across") 
 c1.plotly_chart(fig, use_container_width=True)
 
 #-------------- Affichage des tendances dans un container --------------#
