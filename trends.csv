@@ -2,32 +2,32 @@ currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_one
 Bitcoin,BTC,2022-05-26,26514.635,27786.465,36687.56,32229.533203
 Dollar des Etats-Unis,USD,2022-05-25,1.0656,1.072,0.0,1.2264
 Kuna croate,HRK,2022-05-25,7.5355,7.5285,0.0,0.0
-Rand sud-africain,ZAR,2022-05-25,16.7628,16.7814,0.0,0.0
 Yuan renminbi chinois,CNY,2022-05-25,7.1334,7.1449,0.0,0.0
 Peso philippin,PHP,2022-05-25,55.787,56.152,0.0,0.0
 Ringgit malaisien,MYR,2022-05-25,4.6833,4.7076,0.0,0.0
 Baht thaïlandais,THB,2022-05-25,36.55,36.609,0.0,38.448
-Roupie indonésienne,IDR,2022-05-25,,,0.0,0.0
-Real brésilien,BRL,2022-05-25,5.1736,5.1793,0.0,6.497
-Dollar de Singapour,SGD,2022-05-25,1.4676,1.4722,0.0,1.6255
+Rouble russe,RUB,2022-05-25,,,0.0,0.0
 Peso mexicain,MXN,2022-05-25,21.2213,21.2456,0.0,24.3183
+Real brésilien,BRL,2022-05-25,5.1736,5.1793,0.0,6.497
+South Korean won,KRW,2022-05-25,,,0.0,0.0
 Roupie indienne,INR,2022-05-25,82.6666,83.185,0.0,0.0
 Nouveau sheqel israëlien,ILS,2022-05-25,3.585,3.5848,0.0,0.0
 Yen japonais,JPY,2022-05-25,135.34,136.49,0.0,133.49
-South Korean won,KRW,2022-05-25,,,0.0,0.0
-Rouble russe,RUB,2022-05-25,,,0.0,0.0
+Rand sud-africain,ZAR,2022-05-25,16.7628,16.7814,0.0,0.0
+Roupie indonésienne,IDR,2022-05-25,,,0.0,0.0
+Dollar de Singapour,SGD,2022-05-25,1.4676,1.4722,0.0,1.6255
+Forint hongrois,HUF,2022-05-25,388.25,383.33,0.0,0.0
 Dollar néo-zélandais,NZD,2022-05-25,1.6539,1.6656,0.0,1.6918
-Couronne tchèque,CZK,2022-05-25,24.648,24.663,0.0,0.0
-Dollar de Hong Kong,HKD,2022-05-25,8.3647,8.4143,0.0,9.5197
 Livre sterling,GBP,2022-05-25,0.853,0.8575,0.0,0.86573
 Couronne suédoise,SEK,2022-05-25,10.5419,10.5013,0.0,0.0
 Franc suisse,CHF,2022-05-25,1.0269,1.0334,0.0,1.0977
 Couronne norvégienne,NOK,2022-05-25,10.2704,10.289,0.0,0.0
 Lev bulgare,BGN,2022-05-25,1.9558,1.9558,0.0,0.0
+Couronne tchèque,CZK,2022-05-25,24.648,24.663,0.0,0.0
 Couronne danoise,DKK,2022-05-25,7.4405,7.4411,0.0,0.0
-Forint hongrois,HUF,2022-05-25,388.25,383.33,0.0,0.0
+Zloty polonais,PLN,2022-05-25,4.621,4.6015,0.0,0.0
 Nouveau leu roumain,RON,2022-05-25,4.9416,4.9446,0.0,0.0
 Nouvelle livre turque,TRY,2022-05-25,17.3954,17.2572,0.0,0.0
 Dollar australien,AUD,2022-05-25,1.5126,1.5152,0.0,1.5785
 Dollar canadien,CAD,2022-05-25,1.372,1.3714,0.0,1.4758
-Zloty polonais,PLN,2022-05-25,4.621,4.6015,0.0,0.0
+Dollar de Hong Kong,HKD,2022-05-25,8.3647,8.4143,0.0,9.5197
