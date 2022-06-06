@@ -1,7 +1,7 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
-Bitcoin,BTC,2022-06-05,27818.65,27806.064,34238.88,29221.080078
+Bitcoin,BTC,2022-06-06,29257.227,27818.65,34103.188,29474.392578
 Dollar des Etats-Unis,USD,2022-06-03,1.073,1.0713,1.0531,1.2187
-Kuna croate,HRK,2022-06-03,7.522,7.541,7.5499,0.0
+Roupie indonésienne,IDR,2022-06-03,,,,0.0
 Yuan renminbi chinois,CNY,2022-06-03,7.1465,7.1402,6.9594,0.0
 Peso philippin,PHP,2022-06-03,56.738,56.323,55.26,0.0
 Ringgit malaisien,MYR,2022-06-03,4.7094,4.6907,4.5847,0.0
@@ -14,7 +14,7 @@ Roupie indienne,INR,2022-06-03,83.273,83.231,80.4035,0.0
 Nouveau sheqel israëlien,ILS,2022-06-03,3.5751,3.5746,3.5487,0.0
 Yen japonais,JPY,2022-06-03,139.59,137.36,136.84,133.81
 Rand sud-africain,ZAR,2022-06-03,16.6153,16.745,16.6489,0.0
-Roupie indonésienne,IDR,2022-06-03,,,,0.0
+Kuna croate,HRK,2022-06-03,7.522,7.541,7.5499,0.0
 Dollar de Singapour,SGD,2022-06-03,1.4741,1.4687,1.4559,1.6141
 Dollar néo-zélandais,NZD,2022-06-03,1.6409,1.6459,1.6333,1.6915
 Dollar de Hong Kong,HKD,2022-06-03,8.4167,8.4063,8.2655,9.4551
