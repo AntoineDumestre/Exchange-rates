@@ -1,19 +1,19 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
+Bitcoin,BTC,2022-06-11,27854.17,28428.787,28302.531,30832.054688
 Dollar des Etats-Unis,USD,2022-06-10,1.0578,1.0743,1.0553,1.2174
-Dollar de Singapour,SGD,2022-06-10,1.462,1.4779,1.4622,1.6129
-Yen japonais,JPY,2022-06-10,141.69,143.93,137.07,133.35
-Bitcoin,BTC,2022-06-10,28428.787,28157.357,29373.248,30150.488281
-Nouveau sheqel israëlien,ILS,2022-06-10,3.5626,3.5859,3.6148,0.0
-Roupie indienne,INR,2022-06-10,82.3355,83.526,81.4935,0.0
-Peso mexicain,MXN,2022-06-10,20.8285,21.0248,21.387,23.9905
-Real brésilien,BRL,2022-06-10,5.1718,5.2506,5.3859,6.1432
 Kuna croate,HRK,2022-06-10,7.5225,7.5223,7.5365,0.0
-Roupie indonésienne,IDR,2022-06-10,,,,0.0
-Baht thaïlandais,THB,2022-06-10,36.774,37.079,36.492,37.947
-Ringgit malaisien,MYR,2022-06-10,4.6564,4.7199,4.6185,0.0
-Peso philippin,PHP,2022-06-10,56.101,56.872,54.992,0.0
-Yuan renminbi chinois,CNY,2022-06-10,7.0868,7.1722,7.0893,0.0
 Rand sud-africain,ZAR,2022-06-10,16.5209,16.4132,16.9275,0.0
+Yuan renminbi chinois,CNY,2022-06-10,7.0868,7.1722,7.0893,0.0
+Peso philippin,PHP,2022-06-10,56.101,56.872,54.992,0.0
+Ringgit malaisien,MYR,2022-06-10,4.6564,4.7199,4.6185,0.0
+Baht thaïlandais,THB,2022-06-10,36.774,37.079,36.492,37.947
+Roupie indonésienne,IDR,2022-06-10,,,,0.0
+Real brésilien,BRL,2022-06-10,5.1718,5.2506,5.3859,6.1432
+Dollar de Singapour,SGD,2022-06-10,1.462,1.4779,1.4622,1.6129
+Peso mexicain,MXN,2022-06-10,20.8285,21.0248,21.387,23.9905
+Roupie indienne,INR,2022-06-10,82.3355,83.526,81.4935,0.0
+Nouveau sheqel israëlien,ILS,2022-06-10,3.5626,3.5859,3.6148,0.0
+Yen japonais,JPY,2022-06-10,141.69,143.93,137.07,133.35
 South Korean won,KRW,2022-06-10,,,,0.0
 Rouble russe,RUB,2022-06-10,,,,0.0
 Dollar néo-zélandais,NZD,2022-06-10,1.6482,1.6673,1.6645,1.6932
@@ -26,8 +26,8 @@ Couronne norvégienne,NOK,2022-06-10,10.1495,10.1818,10.1793,0.0
 Lev bulgare,BGN,2022-06-10,1.9558,1.9558,1.9558,0.0
 Couronne danoise,DKK,2022-06-10,7.4389,7.4391,7.4393,0.0
 Forint hongrois,HUF,2022-06-10,398.48,396.45,379.13,0.0
-Zloty polonais,PLN,2022-06-10,4.6053,4.5925,4.6575,0.0
 Nouveau leu roumain,RON,2022-06-10,4.9442,4.9453,4.947,0.0
 Nouvelle livre turque,TRY,2022-06-10,18.0116,18.5104,16.1851,0.0
 Dollar australien,AUD,2022-06-10,1.4845,1.4985,1.5055,1.5731
 Dollar canadien,CAD,2022-06-10,1.3484,1.3506,1.3685,1.4739
+Zloty polonais,PLN,2022-06-10,4.6053,4.5925,4.6575,0.0
