@@ -1,19 +1,19 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
+Bitcoin,BTC,2022-07-09,18952.523,18952.523,28157.357,28454.882813
 Dollar des Etats-Unis,USD,2022-07-08,1.0163,1.018,1.0739,1.1838
-Dollar de Singapour,SGD,2022-07-08,1.4228,1.4255,1.4769,1.602
-Yen japonais,JPY,2022-07-08,138.05,138.11,143.92,129.91
-Bitcoin,BTC,2022-07-08,18952.523,18952.523,28367.332,27752.710938
-Nouveau sheqel israëlien,ILS,2022-07-08,3.5325,3.5548,3.5848,0.0
-Roupie indienne,INR,2022-07-08,80.528,80.6,83.414,0.0
-Peso mexicain,MXN,2022-07-08,20.8477,20.9675,21.0458,23.7922
-Real brésilien,BRL,2022-07-08,5.4345,5.4983,5.2447,6.2463
 Kuna croate,HRK,2022-07-08,7.519,7.5193,7.5215,0.0
-Roupie indonésienne,IDR,2022-07-08,,,,0.0
-Baht thaïlandais,THB,2022-07-08,36.602,36.74,37.076,38.497
-Ringgit malaisien,MYR,2022-07-08,4.4992,4.5077,4.7187,0.0
-Peso philippin,PHP,2022-07-08,56.882,56.939,56.799,0.0
-Yuan renminbi chinois,CNY,2022-07-08,6.8095,6.823,7.1785,0.0
 Rand sud-africain,ZAR,2022-07-08,17.1922,17.0372,16.4626,0.0
+Yuan renminbi chinois,CNY,2022-07-08,6.8095,6.823,7.1785,0.0
+Peso philippin,PHP,2022-07-08,56.882,56.939,56.799,0.0
+Ringgit malaisien,MYR,2022-07-08,4.4992,4.5077,4.7187,0.0
+Baht thaïlandais,THB,2022-07-08,36.602,36.74,37.076,38.497
+Roupie indonésienne,IDR,2022-07-08,,,,0.0
+Real brésilien,BRL,2022-07-08,5.4345,5.4983,5.2447,6.2463
+Dollar de Singapour,SGD,2022-07-08,1.4228,1.4255,1.4769,1.602
+Peso mexicain,MXN,2022-07-08,20.8477,20.9675,21.0458,23.7922
+Roupie indienne,INR,2022-07-08,80.528,80.6,83.414,0.0
+Nouveau sheqel israëlien,ILS,2022-07-08,3.5325,3.5548,3.5848,0.0
+Yen japonais,JPY,2022-07-08,138.05,138.11,143.92,129.91
 South Korean won,KRW,2022-07-08,,,,0.0
 Rouble russe,RUB,2022-07-08,,,,0.0
 Dollar néo-zélandais,NZD,2022-07-08,1.6464,1.6461,1.6644,1.7048
@@ -26,8 +26,8 @@ Couronne norvégienne,NOK,2022-07-08,10.263,10.291,10.1395,0.0
 Lev bulgare,BGN,2022-07-08,1.9558,1.9558,1.9558,0.0
 Couronne danoise,DKK,2022-07-08,7.4424,7.4405,7.4386,0.0
 Forint hongrois,HUF,2022-07-08,402.45,410.04,391.25,0.0
-Zloty polonais,PLN,2022-07-08,4.763,4.7721,4.5698,0.0
 Nouveau leu roumain,RON,2022-07-08,4.9431,4.9448,4.945,0.0
 Nouvelle livre turque,TRY,2022-07-08,17.6026,17.5551,18.453,0.0
 Dollar australien,AUD,2022-07-08,1.4871,1.4883,1.4917,1.5957
 Dollar canadien,CAD,2022-07-08,1.3201,1.3227,1.3467,1.4893
+Zloty polonais,PLN,2022-07-08,4.763,4.7721,4.5698,0.0
