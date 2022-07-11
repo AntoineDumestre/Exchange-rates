@@ -1,5 +1,5 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
-Bitcoin,BTC,2022-07-10,18952.523,18952.523,28428.787,28223.070313
+Bitcoin,BTC,2022-07-11,18952.523,18952.523,27854.17,28840.886719
 Dollar des Etats-Unis,USD,2022-07-08,1.0163,1.018,1.0739,1.1838
 Kuna croate,HRK,2022-07-08,7.519,7.5193,7.5215,0.0
 Yuan renminbi chinois,CNY,2022-07-08,6.8095,6.823,7.1785,0.0
@@ -26,8 +26,8 @@ Lev bulgare,BGN,2022-07-08,1.9558,1.9558,1.9558,0.0
 Couronne tchèque,CZK,2022-07-08,24.614,24.779,24.622,0.0
 Couronne danoise,DKK,2022-07-08,7.4424,7.4405,7.4386,0.0
 Zloty polonais,PLN,2022-07-08,4.763,4.7721,4.5698,0.0
-Nouveau leu roumain,RON,2022-07-08,4.9431,4.9448,4.945,0.0
 Nouvelle livre turque,TRY,2022-07-08,17.6026,17.5551,18.453,0.0
 Dollar australien,AUD,2022-07-08,1.4871,1.4883,1.4917,1.5957
 Dollar canadien,CAD,2022-07-08,1.3201,1.3227,1.3467,1.4893
 Dollar de Hong Kong,HKD,2022-07-08,7.9769,7.9893,8.4275,9.196700000000002
+Nouveau leu roumain,RON,2022-07-08,4.9431,4.9448,4.945,0.0
