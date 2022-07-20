@@ -1,30 +1,30 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
+Bitcoin,BTC,2022-07-20,18952.523,18952.523,19694.621,25299.851563
 Dollar des Etats-Unis,USD,2022-07-19,1.0245,1.0131,1.0486,1.1766
-Dollar de Singapour,SGD,2022-07-19,1.4269,1.4153,1.4547,1.6045
-Bitcoin,BTC,2022-07-19,18952.523,18952.523,18853.346,26134.539063
-Nouveau sheqel israëlien,ILS,2022-07-19,3.5295,3.5004,3.6112,0.0
-Roupie indienne,INR,2022-07-19,81.898,81.034,81.871,0.0
-Peso mexicain,MXN,2022-07-19,20.8552,20.7095,21.4474,23.5865
-Real brésilien,BRL,2022-07-19,5.5454,5.4505,5.3824,6.0813
 Kuna croate,HRK,2022-07-19,7.5093,7.513,7.5155,0.0
-Roupie indonésienne,IDR,2022-07-19,,,,0.0
-Rouble russe,RUB,2022-07-19,,,,0.0
-Baht thaïlandais,THB,2022-07-19,37.492,37.13,36.974,38.663
-Ringgit malaisien,MYR,2022-07-19,4.559,4.5113,4.6159,0.0
-Peso philippin,PHP,2022-07-19,57.583,57.056,56.371,0.0
-Yuan renminbi chinois,CNY,2022-07-19,6.9064,6.8266,7.0308,0.0
 Rand sud-africain,ZAR,2022-07-19,17.457,17.383,16.7133,0.0
-South Korean won,KRW,2022-07-19,,,,0.0
+Yuan renminbi chinois,CNY,2022-07-19,6.9064,6.8266,7.0308,0.0
+Peso philippin,PHP,2022-07-19,57.583,57.056,56.371,0.0
+Ringgit malaisien,MYR,2022-07-19,4.559,4.5113,4.6159,0.0
+Baht thaïlandais,THB,2022-07-19,37.492,37.13,36.974,38.663
+Roupie indonésienne,IDR,2022-07-19,,,,0.0
+Real brésilien,BRL,2022-07-19,5.5454,5.4505,5.3824,6.0813
+Dollar de Singapour,SGD,2022-07-19,1.4269,1.4153,1.4547,1.6045
+Peso mexicain,MXN,2022-07-19,20.8552,20.7095,21.4474,23.5865
+Roupie indienne,INR,2022-07-19,81.898,81.034,81.871,0.0
+Nouveau sheqel israëlien,ILS,2022-07-19,3.5295,3.5004,3.6112,0.0
 Yen japonais,JPY,2022-07-19,141.01,140.16,141.21,128.96
+South Korean won,KRW,2022-07-19,,,,0.0
+Rouble russe,RUB,2022-07-19,,,,0.0
 Dollar néo-zélandais,NZD,2022-07-19,1.6456,1.6432,1.6601,1.6986
 Couronne tchèque,CZK,2022-07-19,24.555,24.508,24.742,0.0
-Couronne danoise,DKK,2022-07-19,7.4449,7.4435,7.4384,0.0
+Dollar de Hong Kong,HKD,2022-07-19,8.0423,7.9528,8.2314,9.1419
 Livre sterling,GBP,2022-07-19,0.853,0.8471,0.855,0.85913
 Couronne suédoise,SEK,2022-07-19,10.4964,10.5265,10.6748,0.0
 Franc suisse,CHF,2022-07-19,0.9918,0.9911,1.0105,1.084
 Couronne norvégienne,NOK,2022-07-19,10.176,10.2553,10.4525,0.0
 Lev bulgare,BGN,2022-07-19,1.9558,1.9558,1.9558,0.0
-Dollar de Hong Kong,HKD,2022-07-19,8.0423,7.9528,8.2314,9.1419
+Couronne danoise,DKK,2022-07-19,7.4449,7.4435,7.4384,0.0
 Forint hongrois,HUF,2022-07-19,397.45,402.05,400.53,0.0
 Nouveau leu roumain,RON,2022-07-19,4.9395,4.9389,4.9469,0.0
 Nouvelle livre turque,TRY,2022-07-19,18.018,17.7225,18.1495,0.0
