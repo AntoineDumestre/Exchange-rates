@@ -1,19 +1,19 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
+Bitcoin,BTC,2022-08-03,0.0,0.0,18952.523,32145.03125
 Dollar des Etats-Unis,USD,2022-08-02,1.0224,0.0,1.0425,1.1886
-Dollar de Singapour,SGD,2022-08-02,1.4103,0.0,1.4565,1.6069
-Yen japonais,JPY,2022-08-02,133.9,0.0,141.05,130.17
-Bitcoin,BTC,2022-08-02,0.0,0.0,18952.523,33015.015625
-Nouveau sheqel israëlien,ILS,2022-08-02,3.4486,0.0,3.6717,0.0
-Roupie indienne,INR,2022-08-02,80.3243,0.0,82.3747,0.0
-Peso mexicain,MXN,2022-08-02,20.952,0.0,21.115,23.5605
-Real brésilien,BRL,2022-08-02,5.3175,0.0,5.5117,6.1459
 Kuna croate,HRK,2022-08-02,7.5195,0.0,7.531,0.0
-Roupie indonésienne,IDR,2022-08-02,,0.0,,0.0
-Baht thaïlandais,THB,2022-08-02,36.914,0.0,37.186,39.152
-Ringgit malaisien,MYR,2022-08-02,4.5531,0.0,4.5943,0.0
-Peso philippin,PHP,2022-08-02,56.834,0.0,57.452,0.0
-Yuan renminbi chinois,CNY,2022-08-02,6.9117,0.0,6.987,0.0
 Rand sud-africain,ZAR,2022-08-02,16.982,0.0,17.1323,0.0
+Yuan renminbi chinois,CNY,2022-08-02,6.9117,0.0,6.987,0.0
+Peso philippin,PHP,2022-08-02,56.834,0.0,57.452,0.0
+Ringgit malaisien,MYR,2022-08-02,4.5531,0.0,4.5943,0.0
+Baht thaïlandais,THB,2022-08-02,36.914,0.0,37.186,39.152
+Roupie indonésienne,IDR,2022-08-02,,0.0,,0.0
+Real brésilien,BRL,2022-08-02,5.3175,0.0,5.5117,6.1459
+Dollar de Singapour,SGD,2022-08-02,1.4103,0.0,1.4565,1.6069
+Peso mexicain,MXN,2022-08-02,20.952,0.0,21.115,23.5605
+Roupie indienne,INR,2022-08-02,80.3243,0.0,82.3747,0.0
+Nouveau sheqel israëlien,ILS,2022-08-02,3.4486,0.0,3.6717,0.0
+Yen japonais,JPY,2022-08-02,133.9,0.0,141.05,130.17
 South Korean won,KRW,2022-08-02,,0.0,,0.0
 Rouble russe,RUB,2022-08-02,,0.0,,0.0
 Dollar néo-zélandais,NZD,2022-08-02,1.6254,0.0,1.6929,1.7041
@@ -22,8 +22,8 @@ Dollar canadien,CAD,2022-08-02,1.315,0.0,1.3492,1.4816
 Dollar australien,AUD,2022-08-02,1.4745,0.0,1.5382,1.6141
 Nouvelle livre turque,TRY,2022-08-02,18.3564,0.0,17.4608,0.0
 Nouveau leu roumain,RON,2022-08-02,4.9298,0.0,4.9457,0.0
-Zloty polonais,PLN,2022-08-02,4.7063,0.0,4.7168,0.0
 Couronne danoise,DKK,2022-08-02,7.4432,0.0,7.4391,0.0
+Zloty polonais,PLN,2022-08-02,4.7063,0.0,4.7168,0.0
 Forint hongrois,HUF,2022-08-02,396.82,0.0,401.11,0.0
 Couronne tchèque,CZK,2022-08-02,24.644,0.0,24.753,0.0
 Lev bulgare,BGN,2022-08-02,1.9558,0.0,1.9558,0.0
