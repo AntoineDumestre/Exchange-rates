@@ -1,19 +1,19 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
+Bitcoin,BTC,2022-08-12,0.0,0.0,18952.523,37857.078125
 Dollar des Etats-Unis,USD,2022-08-11,1.0338,1.0252,1.0042,1.1718
-Dollar de Singapour,SGD,2022-08-11,1.4151,1.4107,1.4127,1.5924
-Bitcoin,BTC,2022-08-11,0.0,0.0,18952.523,38829.910156
-Nouveau sheqel israëlien,ILS,2022-08-11,3.3505,3.3773,3.4987,0.0
-Roupie indienne,INR,2022-08-11,82.2845,81.468,79.8965,0.0
-Peso mexicain,MXN,2022-08-11,20.6398,20.713,20.8883,23.5291
-Real brésilien,BRL,2022-08-11,5.2447,5.251,5.4009,6.1113
-Kuna croate,HRK,2022-08-11,7.515,7.5158,7.517,0.0
 Roupie indonésienne,IDR,2022-08-11,,,,0.0
-Rouble russe,RUB,2022-08-11,,,,0.0
-Baht thaïlandais,THB,2022-08-11,36.343,36.42,36.392,39.062
-Ringgit malaisien,MYR,2022-08-11,4.5952,4.5693,4.4556,0.0
-Peso philippin,PHP,2022-08-11,57.225,57.061,56.648,0.0
-Yuan renminbi chinois,CNY,2022-08-11,6.9668,6.9222,6.7518,0.0
 Rand sud-africain,ZAR,2022-08-11,16.7083,16.8788,17.1509,0.0
+Yuan renminbi chinois,CNY,2022-08-11,6.9668,6.9222,6.7518,0.0
+Peso philippin,PHP,2022-08-11,57.225,57.061,56.648,0.0
+Ringgit malaisien,MYR,2022-08-11,4.5952,4.5693,4.4556,0.0
+Baht thaïlandais,THB,2022-08-11,36.343,36.42,36.392,39.062
+Rouble russe,RUB,2022-08-11,,,,0.0
+Kuna croate,HRK,2022-08-11,7.515,7.5158,7.517,0.0
+Dollar de Singapour,SGD,2022-08-11,1.4151,1.4107,1.4127,1.5924
+Real brésilien,BRL,2022-08-11,5.2447,5.251,5.4009,6.1113
+Peso mexicain,MXN,2022-08-11,20.6398,20.713,20.8883,23.5291
+Roupie indienne,INR,2022-08-11,82.2845,81.468,79.8965,0.0
+Nouveau sheqel israëlien,ILS,2022-08-11,3.3505,3.3773,3.4987,0.0
 South Korean won,KRW,2022-08-11,,,,0.0
 Yen japonais,JPY,2022-08-11,136.57,138.16,137.31,129.68
 Dollar néo-zélandais,NZD,2022-08-11,1.6045,1.6211,1.6395,1.6704
