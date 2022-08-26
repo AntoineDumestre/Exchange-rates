@@ -1,19 +1,19 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
+Bitcoin,BTC,2022-08-26,0.0,0.0,0.0,39938.910156
 Dollar des Etats-Unis,USD,2022-08-25,0.997,0.9934,0.0,1.1736
-Dollar de Singapour,SGD,2022-08-25,1.3857,1.3857,0.0,1.5901
-Yen japonais,JPY,2022-08-25,136.07,135.74,0.0,129.0
-Bitcoin,BTC,2022-08-25,0.0,0.0,0.0,41589.105469
-Nouveau sheqel israëlien,ILS,2022-08-25,3.2791,3.2599,0.0,0.0
-Roupie indienne,INR,2022-08-25,79.6555,79.3006,0.0,0.0
-Peso mexicain,MXN,2022-08-25,19.8132,19.7781,0.0,23.7798
-Real brésilien,BRL,2022-08-25,5.0879,5.0606,0.0,6.1707
 Kuna croate,HRK,2022-08-25,7.514,7.5125,0.0,0.0
-Roupie indonésienne,IDR,2022-08-25,,,0.0,0.0
-Baht thaïlandais,THB,2022-08-25,35.732,35.906,0.0,38.465
-Ringgit malaisien,MYR,2022-08-25,4.4586,4.4559,0.0,0.0
-Peso philippin,PHP,2022-08-25,55.842,55.7,0.0,0.0
-Yuan renminbi chinois,CNY,2022-08-25,6.8317,6.822,0.0,0.0
 Rand sud-africain,ZAR,2022-08-25,16.7903,16.8976,0.0,0.0
+Yuan renminbi chinois,CNY,2022-08-25,6.8317,6.822,0.0,0.0
+Peso philippin,PHP,2022-08-25,55.842,55.7,0.0,0.0
+Ringgit malaisien,MYR,2022-08-25,4.4586,4.4559,0.0,0.0
+Baht thaïlandais,THB,2022-08-25,35.732,35.906,0.0,38.465
+Roupie indonésienne,IDR,2022-08-25,,,0.0,0.0
+Real brésilien,BRL,2022-08-25,5.0879,5.0606,0.0,6.1707
+Dollar de Singapour,SGD,2022-08-25,1.3857,1.3857,0.0,1.5901
+Peso mexicain,MXN,2022-08-25,19.8132,19.7781,0.0,23.7798
+Roupie indienne,INR,2022-08-25,79.6555,79.3006,0.0,0.0
+Nouveau sheqel israëlien,ILS,2022-08-25,3.2791,3.2599,0.0,0.0
+Yen japonais,JPY,2022-08-25,136.07,135.74,0.0,129.0
 South Korean won,KRW,2022-08-25,,,0.0,0.0
 Rouble russe,RUB,2022-08-25,,,0.0,0.0
 Dollar néo-zélandais,NZD,2022-08-25,1.6006,1.6065,0.0,1.69
@@ -26,8 +26,8 @@ Couronne norvégienne,NOK,2022-08-25,9.64,9.636,0.0,0.0
 Lev bulgare,BGN,2022-08-25,1.9558,1.9558,0.0,0.0
 Couronne danoise,DKK,2022-08-25,7.4374,7.4381,0.0,0.0
 Forint hongrois,HUF,2022-08-25,408.93,410.93,0.0,0.0
-Zloty polonais,PLN,2022-08-25,4.7578,4.7668,0.0,0.0
 Nouveau leu roumain,RON,2022-08-25,4.8758,4.88,0.0,0.0
 Nouvelle livre turque,TRY,2022-08-25,18.112,18.0362,0.0,0.0
 Dollar australien,AUD,2022-08-25,1.4306,1.4389,0.0,1.6191
 Dollar canadien,CAD,2022-08-25,1.2881,1.2908,0.0,1.4827
+Zloty polonais,PLN,2022-08-25,4.7578,4.7668,0.0,0.0
