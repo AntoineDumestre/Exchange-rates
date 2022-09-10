@@ -1,19 +1,19 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
+Bitcoin,BTC,2022-09-10,0.0,0.0,0.0,38002.757813
 Dollar des Etats-Unis,USD,2022-09-09,1.0049,1.0009,1.0252,1.1838
-Dollar de Singapour,SGD,2022-09-09,1.4063,1.4054,1.4107,1.5901
-Yen japonais,JPY,2022-09-09,143.3,143.65,138.16,130.1
-Bitcoin,BTC,2022-09-09,0.0,0.0,0.0,39233.226563
-Nouveau sheqel israëlien,ILS,2022-09-09,3.4416,3.429,3.3773,0.0
-Roupie indienne,INR,2022-09-09,79.9685,79.7375,81.468,0.0
-Peso mexicain,MXN,2022-09-09,19.991,20.013,20.713,23.5363
-Real brésilien,BRL,2022-09-09,5.2087,5.2042,5.251,6.267
 Kuna croate,HRK,2022-09-09,7.5245,7.515,7.5158,0.0
-Roupie indonésienne,IDR,2022-09-09,,,,0.0
-Baht thaïlandais,THB,2022-09-09,36.508,36.418,36.42,38.687
-Ringgit malaisien,MYR,2022-09-09,4.52,4.5051,4.5693,0.0
-Peso philippin,PHP,2022-09-09,57.098,57.031,57.061,0.0
-Yuan renminbi chinois,CNY,2022-09-09,6.9543,6.9564,6.9222,0.0
 Rand sud-africain,ZAR,2022-09-09,17.3753,17.3797,16.8788,0.0
+Yuan renminbi chinois,CNY,2022-09-09,6.9543,6.9564,6.9222,0.0
+Peso philippin,PHP,2022-09-09,57.098,57.031,57.061,0.0
+Ringgit malaisien,MYR,2022-09-09,4.52,4.5051,4.5693,0.0
+Baht thaïlandais,THB,2022-09-09,36.508,36.418,36.42,38.687
+Roupie indonésienne,IDR,2022-09-09,,,,0.0
+Real brésilien,BRL,2022-09-09,5.2087,5.2042,5.251,6.267
+Dollar de Singapour,SGD,2022-09-09,1.4063,1.4054,1.4107,1.5901
+Peso mexicain,MXN,2022-09-09,19.991,20.013,20.713,23.5363
+Roupie indienne,INR,2022-09-09,79.9685,79.7375,81.468,0.0
+Nouveau sheqel israëlien,ILS,2022-09-09,3.4416,3.429,3.3773,0.0
+Yen japonais,JPY,2022-09-09,143.3,143.65,138.16,130.1
 South Korean won,KRW,2022-09-09,,,,0.0
 Rouble russe,RUB,2022-09-09,,,,0.0
 Dollar néo-zélandais,NZD,2022-09-09,1.6463,1.6491,1.6211,1.6617
@@ -26,8 +26,8 @@ Couronne norvégienne,NOK,2022-09-09,9.9836,10.0615,9.9118,0.0
 Lev bulgare,BGN,2022-09-09,1.9558,1.9558,1.9558,0.0
 Couronne danoise,DKK,2022-09-09,7.4365,7.4365,7.4397,0.0
 Forint hongrois,HUF,2022-09-09,396.3,395.48,397.65,0.0
-Zloty polonais,PLN,2022-09-09,4.721,4.7155,4.7063,0.0
 Nouveau leu roumain,RON,2022-09-09,4.9019,4.8756,4.9138,0.0
 Nouvelle livre turque,TRY,2022-09-09,18.3282,18.2546,18.4099,0.0
 Dollar australien,AUD,2022-09-09,1.4704,1.4824,1.4682,1.6035
 Dollar canadien,CAD,2022-09-09,1.307,1.3134,1.3207,1.5002
+Zloty polonais,PLN,2022-09-09,4.721,4.7155,4.7063,0.0
