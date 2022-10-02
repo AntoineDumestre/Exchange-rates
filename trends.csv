@@ -1,33 +1,33 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
-Bitcoin,BTC,2022-10-01,0.0,0.0,0.0,41501.777344
+Bitcoin,BTC,2022-10-02,0.0,0.0,0.0,41152.0625
 Dollar des Etats-Unis,USD,2022-09-30,0.9748,0.9706,1.0,1.1579
 Kuna croate,HRK,2022-09-30,7.524,7.528,7.5148,0.0
-Rand sud-africain,ZAR,2022-09-30,17.5353,17.4466,17.0667,0.0
 Yuan renminbi chinois,CNY,2022-09-30,6.9368,6.9223,6.8947,0.0
 Peso philippin,PHP,2022-09-30,57.276,56.86,56.153,0.0
 Ringgit malaisien,MYR,2022-09-30,4.5201,4.4992,4.4755,0.0
 Baht thaïlandais,THB,2022-09-30,36.823,36.946,36.45,39.235
-Roupie indonésienne,IDR,2022-09-30,,,,0.0
-Real brésilien,BRL,2022-09-30,5.2584,5.2521,5.1482,6.2631
-Dollar de Singapour,SGD,2022-09-30,1.4001,1.3961,1.3969,1.576
+Rouble russe,RUB,2022-09-30,,,,0.0
 Peso mexicain,MXN,2022-09-30,19.6393,19.5779,20.2044,23.7439
+Real brésilien,BRL,2022-09-30,5.2584,5.2521,5.1482,6.2631
+South Korean won,KRW,2022-09-30,,,,0.0
 Roupie indienne,INR,2022-09-30,79.425,79.314,79.5465,0.0
 Nouveau sheqel israëlien,ILS,2022-09-30,3.4759,3.4422,3.3399,0.0
 Yen japonais,JPY,2022-09-30,141.01,140.46,138.72,129.67
-South Korean won,KRW,2022-09-30,,,,0.0
-Rouble russe,RUB,2022-09-30,,,,0.0
+Rand sud-africain,ZAR,2022-09-30,17.5353,17.4466,17.0667,0.0
+Roupie indonésienne,IDR,2022-09-30,,,,0.0
+Dollar de Singapour,SGD,2022-09-30,1.4001,1.3961,1.3969,1.576
+Forint hongrois,HUF,2022-09-30,422.18,421.93,402.8,0.0
 Dollar néo-zélandais,NZD,2022-09-30,1.7177,1.704,1.6322,1.6858
-Couronne tchèque,CZK,2022-09-30,24.549,24.687,24.55,0.0
-Dollar de Hong Kong,HKD,2022-09-30,7.6521,7.6192,7.8488,9.0184
 Livre sterling,GBP,2022-09-30,0.883,0.8949,0.8604,0.86053
 Couronne suédoise,SEK,2022-09-30,10.8993,10.958,10.6788,0.0
 Franc suisse,CHF,2022-09-30,0.9561,0.9538,0.9796,1.083
 Couronne norvégienne,NOK,2022-09-30,10.5838,10.4518,9.9388,0.0
 Lev bulgare,BGN,2022-09-30,1.9558,1.9558,1.9558,0.0
+Couronne tchèque,CZK,2022-09-30,24.549,24.687,24.55,0.0
 Couronne danoise,DKK,2022-09-30,7.4365,7.4365,7.4371,0.0
-Forint hongrois,HUF,2022-09-30,422.18,421.93,402.8,0.0
+Zloty polonais,PLN,2022-09-30,4.8483,4.857,4.7283,0.0
 Nouveau leu roumain,RON,2022-09-30,4.949,4.9481,4.8595,0.0
 Nouvelle livre turque,TRY,2022-09-30,18.0841,18.0,18.1849,0.0
 Dollar australien,AUD,2022-09-30,1.5076,1.4982,1.4591,1.6095
 Dollar canadien,CAD,2022-09-30,1.3401,1.3294,1.3111,1.475
-Zloty polonais,PLN,2022-09-30,4.8483,4.857,4.7283,0.0
+Dollar de Hong Kong,HKD,2022-09-30,7.6521,7.6192,7.8488,9.0184
