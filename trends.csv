@@ -1,19 +1,19 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
+Bitcoin,BTC,2022-10-04,0.0,0.0,0.0,42279.28125
 Dollar des Etats-Unis,USD,2022-10-03,0.9764,0.9748,0.9993,1.16
-Dollar de Singapour,SGD,2022-10-03,1.4015,1.4001,1.4013,1.5733
-Yen japonais,JPY,2022-10-03,141.49,141.01,140.36,128.97
-Bitcoin,BTC,2022-10-03,0.0,0.0,0.0,41527.535156
-Nouveau sheqel israëlien,ILS,2022-10-03,3.498,3.4759,3.396,0.0
-Roupie indienne,INR,2022-10-03,79.898,79.425,79.8096,0.0
-Peso mexicain,MXN,2022-10-03,19.604,19.6393,20.1024,23.7955
-Real brésilien,BRL,2022-10-03,5.178,5.2584,5.2153,6.2816
 Kuna croate,HRK,2022-10-03,7.5275,7.524,7.5225,0.0
-Rouble russe,RUB,2022-10-03,,,,0.0
-Baht thaïlandais,THB,2022-10-03,37.181,36.823,36.624,39.022
-Ringgit malaisien,MYR,2022-10-03,4.5383,4.5201,4.4809,0.0
-Peso philippin,PHP,2022-10-03,57.599,57.276,56.854,0.0
-Yuan renminbi chinois,CNY,2022-10-03,6.9481,6.9368,6.9031,0.0
 Rand sud-africain,ZAR,2022-10-03,17.5871,17.5353,17.2791,0.0
+Yuan renminbi chinois,CNY,2022-10-03,6.9481,6.9368,6.9031,0.0
+Peso philippin,PHP,2022-10-03,57.599,57.276,56.854,0.0
+Ringgit malaisien,MYR,2022-10-03,4.5383,4.5201,4.4809,0.0
+Baht thaïlandais,THB,2022-10-03,37.181,36.823,36.624,39.022
+Rouble russe,RUB,2022-10-03,,,,0.0
+Real brésilien,BRL,2022-10-03,5.178,5.2584,5.2153,6.2816
+Dollar de Singapour,SGD,2022-10-03,1.4015,1.4001,1.4013,1.5733
+Peso mexicain,MXN,2022-10-03,19.604,19.6393,20.1024,23.7955
+Roupie indienne,INR,2022-10-03,79.898,79.425,79.8096,0.0
+Nouveau sheqel israëlien,ILS,2022-10-03,3.498,3.4759,3.396,0.0
+Yen japonais,JPY,2022-10-03,141.49,141.01,140.36,128.97
 South Korean won,KRW,2022-10-03,,,,0.0
 Roupie indonésienne,IDR,2022-10-03,,,,0.0
 Dollar néo-zélandais,NZD,2022-10-03,1.7263,1.7177,1.6394,1.6751
@@ -23,8 +23,8 @@ Dollar australien,AUD,2022-10-03,1.5128,1.5076,1.4671,1.5985
 Nouvelle livre turque,TRY,2022-10-03,18.124,18.0841,18.2072,0.0
 Nouveau leu roumain,RON,2022-10-03,4.9479,4.949,4.8335,0.0
 Zloty polonais,PLN,2022-10-03,4.832,4.8483,4.7063,0.0
-Forint hongrois,HUF,2022-10-03,424.86,422.18,398.38,0.0
 Couronne danoise,DKK,2022-10-03,7.4366,7.4365,7.437,0.0
+Forint hongrois,HUF,2022-10-03,424.86,422.18,398.38,0.0
 Couronne tchèque,CZK,2022-10-03,24.527,24.549,24.481,0.0
 Lev bulgare,BGN,2022-10-03,1.9558,1.9558,1.9558,0.0
 Couronne norvégienne,NOK,2022-10-03,10.5655,10.5838,10.0035,0.0
