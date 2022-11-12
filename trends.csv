@@ -1,33 +1,33 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
-Bitcoin,BTC,2022-11-11,0.0,0.0,0.0,56736.261719
+Bitcoin,BTC,2022-11-12,0.0,0.0,0.0,56061.515625
 Dollar des Etats-Unis,USD,2022-11-10,0.9954,1.0039,0.9723,1.1558
 Kuna croate,HRK,2022-11-10,7.5427,7.5425,7.5293,0.0
-Rand sud-africain,ZAR,2022-11-10,17.6882,17.877,17.6153,0.0
 Yuan renminbi chinois,CNY,2022-11-10,7.2184,7.2813,6.9669,0.0
 Peso philippin,PHP,2022-11-10,57.793,58.236,57.243,0.0
 Ringgit malaisien,MYR,2022-11-10,4.6789,4.7098,4.5436,0.0
 Baht thaïlandais,THB,2022-11-10,36.7,36.999,37.03,37.899
-Roupie indonésienne,IDR,2022-11-10,,,,0.0
-Real brésilien,BRL,2022-11-10,5.286,5.1947,5.0456,6.2965
-Dollar de Singapour,SGD,2022-11-10,1.3963,1.4061,1.3967,1.5585
+Rouble russe,RUB,2022-11-10,,,,0.0
 Peso mexicain,MXN,2022-11-10,19.4562,19.6554,19.4115,23.5282
+Real brésilien,BRL,2022-11-10,5.286,5.1947,5.0456,6.2965
+South Korean won,KRW,2022-11-10,,,,0.0
 Roupie indienne,INR,2022-11-10,81.3058,81.6575,79.9555,0.0
 Nouveau sheqel israëlien,ILS,2022-11-10,3.5453,3.5621,3.4776,0.0
 Yen japonais,JPY,2022-11-10,145.47,146.82,141.54,130.9
-South Korean won,KRW,2022-11-10,,,,0.0
-Rouble russe,RUB,2022-11-10,,,,0.0
+Rand sud-africain,ZAR,2022-11-10,17.6882,17.877,17.6153,0.0
+Roupie indonésienne,IDR,2022-11-10,,,,0.0
+Dollar de Singapour,SGD,2022-11-10,1.3963,1.4061,1.3967,1.5585
+Forint hongrois,HUF,2022-11-10,400.95,403.53,428.73,0.0
 Dollar néo-zélandais,NZD,2022-11-10,1.6984,1.7033,1.7323,1.6285
-Couronne tchèque,CZK,2022-11-10,24.361,24.337,24.535,0.0
-Dollar de Hong Kong,HKD,2022-11-10,7.8128,7.8801,7.6325,9.0035
 Livre sterling,GBP,2022-11-10,0.873,0.8777,0.877,0.85548
 Couronne suédoise,SEK,2022-11-10,10.8743,10.845,11.0015,0.0
 Franc suisse,CHF,2022-11-10,0.9834,0.988,0.9675,1.0555
 Couronne norvégienne,NOK,2022-11-10,10.3615,10.322,10.4235,0.0
 Lev bulgare,BGN,2022-11-10,1.9558,1.9558,1.9558,0.0
+Couronne tchèque,CZK,2022-11-10,24.361,24.337,24.535,0.0
 Couronne danoise,DKK,2022-11-10,7.4381,7.4382,7.439,0.0
-Forint hongrois,HUF,2022-11-10,400.95,403.53,428.73,0.0
+Zloty polonais,PLN,2022-11-10,4.706,4.701,4.869,0.0
 Nouveau leu roumain,RON,2022-11-10,4.8913,4.9045,4.9394,0.0
 Nouvelle livre turque,TRY,2022-11-10,18.51,18.6728,18.0686,0.0
 Dollar australien,AUD,2022-11-10,1.5525,1.5538,1.545,1.5697
 Dollar canadien,CAD,2022-11-10,1.3467,1.3501,1.3402,1.4371
-Zloty polonais,PLN,2022-11-10,4.706,4.701,4.869,0.0
+Dollar de Hong Kong,HKD,2022-11-10,7.8128,7.8801,7.6325,9.0035
