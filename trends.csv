@@ -1,33 +1,33 @@
 currency,symbol,last_date,last_value,value_onedayago,value_onemonthago,value_oneyearago
-Bitcoin,BTC,2022-11-23,0.0,0.0,0.0,51188.464844
-Dollar des Etats-Unis,USD,2022-11-22,1.0274,1.0246,0.973,1.1278
-Roupie indonésienne,IDR,2022-11-22,,,,0.0
-Rand sud-africain,ZAR,2022-11-22,17.7568,17.7858,18.0021,0.0
-Yuan renminbi chinois,CNY,2022-11-22,7.3344,7.3419,7.0504,0.0
-Peso philippin,PHP,2022-11-22,58.942,58.822,57.287,0.0
-Ringgit malaisien,MYR,2022-11-22,4.7055,4.6927,4.6101,0.0
-Baht thaïlandais,THB,2022-11-22,37.11,37.121,37.349,37.116
-Rouble russe,RUB,2022-11-22,,,,0.0
-Kuna croate,HRK,2022-11-22,7.5438,7.5425,7.5325,0.0
-Dollar de Singapour,SGD,2022-11-22,1.4167,1.4162,1.3917,1.5357
-Real brésilien,BRL,2022-11-22,5.4578,5.4401,5.1117,6.3043
-Peso mexicain,MXN,2022-11-22,20.0951,19.9357,19.5521,23.5855
-Roupie indienne,INR,2022-11-22,83.8768,83.7375,80.739,0.0
-Nouveau sheqel israëlien,ILS,2022-11-22,3.5615,3.5515,3.4803,0.0
-South Korean won,KRW,2022-11-22,,,,0.0
-Yen japonais,JPY,2022-11-22,145.2,145.33,147.59,128.69
-Dollar néo-zélandais,NZD,2022-11-22,1.6707,1.6766,1.7347,1.6095
-Couronne tchèque,CZK,2022-11-22,24.351,24.356,24.511,0.0
-Couronne danoise,DKK,2022-11-22,7.4377,7.4377,7.4382,0.0
-Livre sterling,GBP,2022-11-22,0.8636,0.8679,0.8773,0.83923
-Couronne suédoise,SEK,2022-11-22,10.9653,10.9873,11.0868,0.0
-Franc suisse,CHF,2022-11-22,0.9791,0.9817,0.9855,1.0454
-Couronne norvégienne,NOK,2022-11-22,10.4445,10.4898,10.4315,0.0
-Lev bulgare,BGN,2022-11-22,1.9558,1.9558,1.9558,0.0
-Dollar de Hong Kong,HKD,2022-11-22,8.0313,7.9989,7.6376,8.787499999999998
-Forint hongrois,HUF,2022-11-22,408.23,409.43,412.88,0.0
-Nouveau leu roumain,RON,2022-11-22,4.9269,4.9413,4.9125,0.0
-Nouvelle livre turque,TRY,2022-11-22,19.1221,19.0822,18.0988,0.0
-Dollar australien,AUD,2022-11-22,1.5473,1.5471,1.5646,1.5532
-Dollar canadien,CAD,2022-11-22,1.3765,1.377,1.3465,1.4257
-Zloty polonais,PLN,2022-11-22,4.7125,4.7075,4.7885,0.0
+Dollar des Etats-Unis,USD,2022-11-24,1.0413,1.0274,0.9861,1.1206
+Dollar de Singapour,SGD,2022-11-24,1.4319,1.4167,1.405,1.533
+Yen japonais,JPY,2022-11-24,143.9,145.2,146.84,129.06
+Bitcoin,BTC,2022-11-24,0.0,0.0,0.0,50235.796875
+Nouveau sheqel israëlien,ILS,2022-11-24,3.5607,3.5615,3.506,0.0
+Roupie indienne,INR,2022-11-24,85.0295,83.8768,81.653,0.0
+Peso mexicain,MXN,2022-11-24,20.1501,20.0951,19.6353,23.833
+Real brésilien,BRL,2022-11-24,5.5504,5.4578,5.2254,6.2705
+Kuna croate,HRK,2022-11-24,7.547,7.5438,7.5315,0.0
+Roupie indonésienne,IDR,2022-11-24,,,,0.0
+Baht thaïlandais,THB,2022-11-24,37.258,37.11,37.758,37.389
+Ringgit malaisien,MYR,2022-11-24,4.6806,4.7055,4.6697,0.0
+Peso philippin,PHP,2022-11-24,58.992,58.942,57.988,0.0
+Yuan renminbi chinois,CNY,2022-11-24,7.4442,7.3344,7.2072,0.0
+Rand sud-africain,ZAR,2022-11-24,17.7246,17.7568,18.2211,0.0
+South Korean won,KRW,2022-11-24,,,,0.0
+Rouble russe,RUB,2022-11-24,,,,0.0
+Dollar néo-zélandais,NZD,2022-11-24,1.6598,1.6707,1.7321,1.6257
+Couronne tchèque,CZK,2022-11-24,24.392,24.351,24.472,0.0
+Dollar de Hong Kong,HKD,2022-11-24,8.1324,8.0313,7.7407,8.737199999999998
+Livre sterling,GBP,2022-11-24,0.8593,0.8636,0.8714,0.83935
+Couronne suédoise,SEK,2022-11-24,10.8573,10.9653,10.9728,0.0
+Franc suisse,CHF,2022-11-24,0.9818,0.9791,0.9888,1.0484
+Couronne norvégienne,NOK,2022-11-24,10.3435,10.4445,10.391,0.0
+Lev bulgare,BGN,2022-11-24,1.9558,1.9558,1.9558,0.0
+Couronne danoise,DKK,2022-11-24,7.4369,7.4377,7.4387,0.0
+Forint hongrois,HUF,2022-11-24,413.33,408.23,413.7,0.0
+Zloty polonais,PLN,2022-11-24,4.6958,4.7125,4.777,0.0
+Nouveau leu roumain,RON,2022-11-24,4.9205,4.9269,4.9036,0.0
+Nouvelle livre turque,TRY,2022-11-24,19.3969,19.1221,18.3508,0.0
+Dollar australien,AUD,2022-11-24,1.5414,1.5473,1.5599,1.5549
+Dollar canadien,CAD,2022-11-24,1.3894,1.3765,1.3537,1.4227
